@@ -56,14 +56,82 @@ $footer-bg: $body-bg; // footer
 $link-color: $primary; // hyperlinks 
 
 // Fonts
-$font-family-sans-serif:  'Gill Sans Nova Light' !default;
-$font-family-sans-serif-book: 'Gill Sans Nova Book' !default;
-$font-family-sans-serif-medium: 'Gill Sans Nova Medium' !default;
-$font-family-sans-serif-semibold: 'Gill Sans Nova SemiBold' !default;
-$font-family-sans-serif-bold: 'Gill Sans Nova Bold' !default;
-$font-family-sans-serif-heavy: 'Gill Sans Nova Heavy' !default;
+// Fonts
+@font-face {
+  font-family: 'Gill Sans Nova Light';
+  src: url('assets/fonts/GillSansNova-Light.woff2') format('woff2'),
+       url('assets/fonts/GillSansNova-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
 
-$font-family-serif:  'Times New Roman' !default;
+@font-face {
+  font-family: 'Gill Sans Nova Book';
+  src: url('assets/fonts/GillSansNova-Book.woff2') format('woff2'),
+       url('assets/fonts/GillSansNova-Book.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gill Sans Nova Medium';
+  src: url('assets/fonts/GillSansNova-Medium.woff2') format('woff2'),
+       url('assets/fonts/GillSansNova-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gill Sans Nova SemiBold';
+  src: url('assets/fonts/GillSansNova-SemiBold.woff2') format('woff2'),
+       url('assets/fonts/GillSansNova-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gill Sans Nova Bold';
+  src: url('assets/fonts/GillSansNova-Bold.woff2') format('woff2'),
+       url('assets/fonts/GillSansNova-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gill Sans Nova Heavy';
+  src: url('assets/fonts/GillSansNova-Heavy.woff2') format('woff2'),
+       url('assets/fonts/GillSansNova-Heavy.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gill Sans Nova ExtraBold';
+  src: url('assets/fonts/GillSansNova-ExtraBold.woff2') format('woff2'),
+       url('assets/fonts/GillSansNova-ExtraBold.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gill Sans Nova UltraBold';
+  src: url('assets/fonts/GillSansNova-UltraBold.woff2') format('woff2'),
+       url('assets/fonts/GillSansNova-UltraBold.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+}
+
+// Define Font Variables
+$font-family-sans-serif: 'Gill Sans Nova Light', sans-serif !default;
+$font-family-sans-serif-book: 'Gill Sans Nova Book', sans-serif !default;
+$font-family-sans-serif-medium: 'Gill Sans Nova Medium', sans-serif !default;
+$font-family-sans-serif-semibold: 'Gill Sans Nova SemiBold', sans-serif !default;
+$font-family-sans-serif-bold: 'Gill Sans Nova Bold', sans-serif !default;
+$font-family-sans-serif-heavy: 'Gill Sans Nova Heavy', sans-serif !default;
+$font-family-sans-serif-extrabold: 'Gill Sans Nova ExtraBold', sans-serif !default;
+$font-family-sans-serif-ultrabold: 'Gill Sans Nova UltraBold', sans-serif !default;
+
+$font-family-serif: 'Times New Roman', serif !default;
 
 // Font sizes;
 $font-size-base:   1rem; //!default; // Assumes the browser default, typically `16px`
@@ -77,6 +145,7 @@ $link-font-size:   $font-size-base * 0.8 !default;
 
 
 /*-- scss:rules --*/
+ 
 // for cards
 .card-light {
   background-color: $winslow-2;
