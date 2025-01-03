@@ -1,11 +1,90 @@
 ---
-title: "pisaster-website"
 ---
+::: full-width
+# Translating ecological data into conservation action
 
-This is a Quarto website.
+<br>
+:::
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+::: full-width-light
+## What we do
 
-```{r}
-1 + 1
-```
+::: grid
+
+::: {.g-col-12 .g-col-md-6}
+::: {.card-light .card .h-100}
+<!-- <a href="services.qmd#analyze-wildlife-data" class="d-block text-decoration-none">  -->
+
+::: {.card-body .d-flex .flex-column}
+::: {.top-aligned}
+### Analyze wildlife data
+- Understand population trends, habitat use, and species distribution from your monitoring data
+- Design effective monitoring programs and create compelling visualizations to communicate your findings
+:::
+:::
+</a>
+:::
+:::
+
+
+::: {.g-col-12 .g-col-md-6}
+::: {.card-light .card .h-100}
+<!-- <a href="services.qmd#design-resilient-landscapes" class="d-block text-decoration-none">  -->
+
+::: {.card-body .d-flex .flex-column}
+::: {.top-aligned}
+### Design resilient landscapes
+- Map climate-resilient wildlife corridors using spatial analysis and connectivity modeling
+- Inform conservation planning and adaptation strategies that ensure long-term ecosystem health
+:::
+:::
+</a>
+:::
+:::
+
+
+::: {.g-col-12 .g-col-md-6}
+::: {.card-light .card .h-100}
+<!-- <a href="services.qmd#streamline-data-workflows" class="d-block text-decoration-none">  -->
+
+::: {.card-body .d-flex .flex-column}
+::: {.top-aligned}
+### Streamline data workflows
+- Clean, organize, and manage your ecological data efficiently
+- Develop custom, reproducible workflows for analysis and reporting
+- Provide statistical design, analysis, and consulting
+:::
+:::
+</a>
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.card-light .card .h-100}
+<!-- <a href="services.qmd#visualize-your-impact" class="d-block text-decoration-none">  -->
+
+::: {.card-body .d-flex .flex-column}
+::: {.top-aligned}
+### Visualize your impact
+- Communicate complex ecological data clearly and effectively with compelling maps, infographics, and figures
+- Create presentations and reports tailored for diverse audiences, from technical experts to the general public
+:::
+:::
+</a>
+:::
+:::
+
+:::
+
+<br>
+:::
+
+::: full-width
+## Let's collaborate
+Pisaster empowers conservation organizations to take action with their ecological data. With expertise in wildlife monitoring, landscape connectivity, and advanced statistical analysis, we provide the clear, actionable insights needed to advance their mission to protect biodiversity and ecosystem resilience.
+
+<!-- [Email us]{.card-link} -->
+<a class="card-link" href="mailto:hello@pisaster.com?subject=Website%20inquiry">Email us</a>
+
+
+:::

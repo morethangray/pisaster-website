@@ -2,18 +2,54 @@ project:
   type: website
 
 website:
-  title: "pisaster-website"
+  title: "Pisaster"
+  favicon: /images/favicon_60ppi.png
+  
+  # start of the navigation bar at the top of the website
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+    title: false
+    pinned: true
+    logo: /images/logo_60ppi_crop.png 
+    
+  # sub-pages
+    # right:
+      # - text: "Home"
+      #   href: index.qmd
+      # - text: "Services"
+      #   href: services.qmd
+      # - text: "Reviews"
+      #   href: reviews.qmd
+      # - text: "About"
+      #   href: about.qmd
+      # - text: "Contact"
+      #   href: contact.qmd
+      
+  # sidebar:
+  #   - title: "About"
+  #     style: "docked"
+  #     background: light
+  #     contents:
+  #       - about#team.qmd
+  #       - about#pisaster.qmd
+        
+  search:
+    location: navbar
+    limit: 13
+ 
+  page-footer:
+    left: | 
+      {{< fa regular copyright >}} 2024 Pisaster 
+    right: Website built with [Quarto](https://quarto.org/) 
+    border: false
+  
+
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
-    toc: true
+    theme: 
+      - flatly
+      - theme.scss
+    toc: false
 
 editor: visual
-
+mainfont: "Gill Sans Nova Book"

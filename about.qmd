@@ -1,9 +1,33 @@
 ---
-title: "About"
+toc: false
 ---
 
-About this site
+# Team
 
-```{r}
-1 + 1
-```
+## Morgan Gray, PhD
+
+Principal and Quantitative Ecologist
+
+Making ecological data work for conservation isn't just about numbers - it's about understanding what matters to the people doing vital conservation work. After 15 years in ecological data analysis and time in the non-profit sector, I've seen firsthand how organizations often struggle to transform their monitoring data into meaningful conservation actions.
+
+That's where I come in. I help conservation organizations tackle their data challenges, whether it's designing wildlife monitoring plans, analyzing camera trap data, mapping connectivity corridors, or creating clear visualizations that tell their story. My approach combines statistical expertise with a deep appreciation for the practical realities of conservation work.
+
+I specialize in wildlife monitoring analysis and connectivity mapping, but my skills extend to any project involving ecological data. From cleaning long-term datasets to creating automated workflows, from statistical design to compelling visualizations, **if ecological data is slowing down your conservation work, I'm here to help**.
+
+What sets my work apart is my ability to make complex scientific concepts accessible. I explain things in plain language and create clear visuals so you always understand what the results mean and why they matter. My clients appreciate that I bring both statistical rigor and a collaborative, approachable style to every project.
+
+My focus is on taking the stress out of the scientific process so conservation organizations can concentrate on what they do best. Whether you need help with a specific analysis or ongoing statistical support, I'm here to make sure your data works as hard as you do for conservation.
+
+### Education
+
+PhD in Environmental Science, Policy & Management \| UC Berkeley
+
+BA in Integrative Biology \| UC Berkeley
+
+### Links
+
+::: social-icons
+<a href="https://github.com/morethangray" target="_blank" aria-label="GitHub"> <i class="fab fa-github fa-2x"></i> </a> <a href="https://www.linkedin.com/in/morgangray/" target="_blank" aria-label="LinkedIn"> <i class="fab fa-linkedin fa-2x"></i> </a> <a href="https://scholar.google.com/citations?user=JrvfM-cAAAAJ&hl=en&oi=sra" target="_blank" aria-label="Google Scholar"> <i class="fas fa-graduation-cap fa-2x"></i> </a> 
+:::
+
+# Pisaster

@@ -1,0 +1,177 @@
+/*-- scss:defaults --*/
+//  my colors  
+// browns
+$brown-005: #FBFAF9 !default;
+$brown-006: #F7F6F5 !default;
+$brown-010: #F7F5F3 !default;
+$brown-020: #F4F0EE !default;
+$brown-100: #F0ECE9 !default;
+$brown-150: #E3DEDA !default;
+$brown-200: #CCC5BE !default;
+$brown-300: #ABA297 !default;
+$brown-400: #8D8173 !default;
+$brown-500: #807363 !default;
+$brown-600: #6F614F !default;
+$brown-700: #635441 !default;
+$brown-800: #534534 !default;
+$brown-900: #2F2316 !default;
+
+$seastar:    #BA5F06 !default;
+
+$winslow-1:	#FAFAF8 !default;
+$winslow-2:	#F0EFE9 !default;
+$winslow-3:	#E6E5DF !default;
+$yellow-1:  #D6AF90 !default;
+$yellow-2:  #ECDABC !default;
+$yellow-3:  #F1E6D1 !default;
+$orange-1:  #CB785C !default;
+$orange-2:  #D18D71 !default;
+$orange-3:  #D59F8C !default;
+$gray-1:    #737471 !default;
+$gray-2:    #979791 !default;
+$gray-3:    #949491 !default;
+$gray-4:    #C4C3BB !default;
+
+$text-selected: #828179 !default;
+$text-body:     #403C2C !default;
+$text-date:     #A5A39A !default;
+$text-h1:       #6F6D5F !default;
+$text-h2:       #555247 !default;
+$text-logo:     #2A261B !default;
+$text-title:    #424242 !default;
+$text-title-faded: #83827A !default;
+
+$primary:       #4b4843 !default;
+$secondary:     #A5A39A !default;
+$light:         $winslow-1 !default;
+$dark:          #635441 !default;
+
+// Base document colors
+$body-bg:  $winslow-2; // page background 
+$body-color: $primary; // page text 
+$navbar-bg: $body-bg; // navbar
+$navbar-fg: $body-color; // navbar foreground elements
+$navbar-hl: $seastar; // highlight color when hovering over navbar links
+$footer-bg: $body-bg; // footer 
+$link-color: $primary; // hyperlinks 
+
+// Fonts
+$font-family-sans-serif:  'Gill Sans Nova Light' !default;
+$font-family-sans-serif-book: 'Gill Sans Nova Book' !default;
+$font-family-sans-serif-medium: 'Gill Sans Nova Medium' !default;
+$font-family-sans-serif-semibold: 'Gill Sans Nova SemiBold' !default;
+$font-family-sans-serif-bold: 'Gill Sans Nova Bold' !default;
+$font-family-sans-serif-heavy: 'Gill Sans Nova Heavy' !default;
+
+$font-family-serif:  'Times New Roman' !default;
+
+// Font sizes;
+$font-size-base:   1rem; //!default; // Assumes the browser default, typically `16px`
+$h1-font-size:     $font-size-base * 2.5 !default;
+$h2-font-size:     $font-size-base * 1.75 !default;
+$h3-font-size:     $font-size-base * 1.25 !default;
+$h4-font-size:     $font-size-base * 1.25 !default;
+$h5-font-size:     $font-size-base * 1.25 !default;
+$h6-font-size:     $font-size-base !default;
+$link-font-size:   $font-size-base * 0.8 !default;
+
+
+/*-- scss:rules --*/
+// for cards
+.card-light {
+  background-color: $winslow-2;
+  border: none;
+  border-radius: 9px; 
+  padding: 0px 1rem 0px 1rem !important;
+}
+
+.card-link {
+    background-color: $orange-3;
+    //color: $winslow-2; 
+    color: inherit; 
+    // border: 1.5px solid $secondary;
+    padding: 10px 1rem 10px 1rem !important;
+    margin: 0;
+    border-radius: 9px; 
+    display: inline-block;
+    text-decoration: none;  
+    font-size: $h3-font-size;
+    //font-size: $link-font-size;
+    font-family: $font-family-sans-serif-book;
+    //font-family: $font-family-sans-serif-book;
+    cursor: pointer;
+}
+
+// for page background
+.full-width {
+    background-color: $body-bg;
+    width: 100vw; /* Use 100% of the viewport width */
+    margin-left: calc(-50vw + 50%); /* Offset to break out of the container */
+    padding: 50px;
+}
+
+.full-width-light {
+    background-color: $light;
+    width: 100vw; /* Use 100% of the viewport width */
+    margin-left: calc(-50vw + 50%); /* Offset to break out of the container */
+    padding: 50px;
+}
+
+.navbar-brand img { 
+  max-height: 30px;
+  width: auto;
+}
+
+// font formatting
+h2 {
+  font-family: $font-family-sans-serif-semibold;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  border-bottom: none;
+}
+
+h3 {
+  font-family: $font-family-sans-serif-semibold;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+
+.semibold-text {
+  font-family: $font-family-sans-serif-semibold;
+}
+
+.top-aligned {
+    margin-top: 1rem; /* Space between the box and the heading*/
+    margin-bottom: 1rem; /* Space between the heading and content */
+}
+
+
+// social icons 
+.social-icons {
+  display: flex; /* Arrange icons horizontally */
+  justify-content: flex-start; /* Align icons to the left */
+  margin-bottom: 1rem;
+}
+
+.social-icons a {
+  color: $secondary; /* Icon color */
+  text-decoration: none; /* Remove underlines from links */
+  transition: color 0.3s; /* Smooth color transition on hover */
+  padding: 1rem;
+
+}
+
+/* Add padding only to the right side of icons except the last one */
+.social-icons a:not(:last-child) {
+  padding-right: 0.78rem;
+}
+
+/* Remove left padding from first icon */
+.social-icons a:first-child {
+  padding-left: 0;
+}
+
+.social-icons a:hover {
+  color: $seastar; /* Hover color */
+}

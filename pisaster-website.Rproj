@@ -1,8 +1,8 @@
 Version: 1.0
 ProjectId: d8b5d915-6546-42b1-bdec-c38fbf286d4a
 
-RestoreWorkspace: Default
-SaveWorkspace: Default
+RestoreWorkspace: No
+SaveWorkspace: No
 AlwaysSaveHistory: Default
 
 EnableCodeIndexing: Yes
