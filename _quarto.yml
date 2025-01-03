@@ -3,13 +3,13 @@ project:
 
 website:
   title: "Pisaster"
-  favicon: /images/favicon_60ppi.png
+  favicon: assets/images/favicon_60ppi.png
   
   # start of the navigation bar at the top of the website
   navbar:
     title: false
     pinned: true
-    logo: /images/logo_60ppi_crop.png 
+    logo: assets/images/logo_60ppi_crop.png 
     
   # sub-pages
     # right:
