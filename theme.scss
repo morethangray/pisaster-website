@@ -132,7 +132,6 @@ $font-family-sans-serif-extrabold: 'Gill Sans Nova ExtraBold', sans-serif !defau
 $font-family-sans-serif-ultrabold: 'Gill Sans Nova UltraBold', sans-serif !default;
 
 $font-family-serif: 'Times New Roman', serif !default;
-
 // Font sizes;
 $font-size-base:   1rem; //!default; // Assumes the browser default, typically `16px`
 $h1-font-size:     $font-size-base * 2.5 !default;
@@ -192,6 +191,13 @@ $link-font-size:   $font-size-base * 0.8 !default;
 }
 
 // font formatting
+h1 {
+  font-family: $font-family-sans-serif-heavy;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  border-bottom: none;
+}
+
 h2 {
   font-family: $font-family-sans-serif-semibold;
   margin-top: 3rem;
