@@ -39,7 +39,7 @@ website:
   page-footer:
     left: | 
       {{< fa regular copyright >}} 2024 Pisaster 
-    right: Website built with [Quarto](https://quarto.org/) 
+    # right: Website built with [Quarto](https://quarto.org/) 
     border: false
   
 

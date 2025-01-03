@@ -178,6 +178,13 @@ $link-font-size:   $font-size-base * 0.8 !default;
     padding: 50px;
 }
 
+.full-width .content-wrapper {
+    width: 61%; /* Restrict content width to 65% */
+    margin-left: 0; /* Keep content left-aligned */
+    margin-right: auto; /* Ensure no extra space on the right */
+}
+
+
 .full-width-light {
     background-color: $light;
     width: 100vw; /* Use 100% of the viewport width */
@@ -212,15 +219,25 @@ h3 {
 }
 
 
-.semibold-text {
-  font-family: $font-family-sans-serif-semibold;
-}
-
 .top-aligned {
     margin-top: 1rem; /* Space between the box and the heading*/
     margin-bottom: 1rem; /* Space between the heading and content */
 }
 
+.company-description {
+  //font-family: $font-family-sans-serif-semibold;
+  font-size: $h3-font-size;
+  color: $text-title-faded;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.p-h3-font {
+  font-size: $h3-font-size;
+  color: $text-title-faded;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
 
 // social icons 
 .social-icons {
