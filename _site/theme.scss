@@ -265,13 +265,6 @@ h3 {
   margin-bottom: 1rem;
 }
 
-.p-group-font {
-  font-size: $group-font-size;
-  margin-top: 0rem !important;
-  margin-bottom: 0rem !important;
-  padding: 0rem !important; /* Equal padding all around */
-}
-
 .company-description {
   //font-family: $font-family-sans-serif-semibold;
   font-size: $h3-font-size;
@@ -287,6 +280,11 @@ h3 {
   margin-bottom: 2rem;
 }
 
+.p-group-font {
+  font-size: $group-font-size;
+  margin: 0 !important;
+}
+
 // for cards
 .card-light {
   background-color: $light;
@@ -299,20 +297,15 @@ h3 {
   background-color: $winslow-2;
   border: none;
   border-radius: 9px; 
-  padding: 0rem !important; /* Equal padding all around */
-  margin-top: 0rem !important;
-  margin-bottom: 0rem !important;
+  padding: 0px 1rem 0px 1rem !important;
 }
 
 .card-body {
   display: flex !important; /* Flexbox for centering */
   height: 100%; /* Ensure the card body takes full height */
-  padding: 0 !important; /* Remove card-body padding */
   align-items: center !important; /* Center vertically */
   justify-content: center !important; /* Center horizontally */
   text-align: center; /* Center-align text */
-  margin-top: 0rem !important;
-  margin-bottom: 0rem !important;
 }
 
 .card-link {

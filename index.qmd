@@ -9,7 +9,7 @@ format:
 ::: full-width-content
 # Translating ecological data into conservation action
 
-[Providing quantitative support that turns ecological data into actionable insights for conservation organizations. From wildlife monitoring and corridor mapping to data management, statistical analysis, and compelling visualizations, Pisaster enables you to focus on protecting biodiversity.]{.company-description}
+[We provide quantitative support that turns ecological data into actionable insights for conservation organizations. From wildlife monitoring and corridor mapping to data management, statistical analysis, and compelling visualizations, Pisaster enables you to focus on protecting biodiversity.]{.company-description}
 
 <br>
 
@@ -30,9 +30,9 @@ format:
 
 :::: {.card-body .d-flex .justify-content-center .align-items-center}
 [Analyze wildlife data]{.p-group-font}
-
-::::
 </a>
+::::
+
 :::::
 ::::::
 
@@ -42,10 +42,8 @@ format:
 
 :::: {.card-body .d-flex .justify-content-center .align-items-center}
 [Map resilient landscapes]{.p-group-font}
-
-::::
-
 </a>
+::::
 :::::
 ::::::
 
@@ -55,10 +53,8 @@ format:
 
 :::: {.card-body .d-flex .justify-content-center .align-items-center}
 [Streamline data workflows]{.p-group-font}
-
-::::
-
 </a>
+::::
 :::::
 ::::::
 
@@ -68,10 +64,8 @@ format:
 
 :::: {.card-body .d-flex .justify-content-center .align-items-center}
 [Research design & statistics]{.p-group-font}
-
-::::
-
 </a>
+::::
 :::::
 ::::::
 
@@ -81,13 +75,10 @@ format:
 
 :::: {.card-body .d-flex .justify-content-center .align-items-center}
 [Visualize your impact]{.p-group-font}
-::::
-
 </a>
+::::
 :::::
 ::::::
-
-
 
 :::::: {.g-col-12 .g-col-md-4}
 ::::: {.card-dark .card .h-100}
@@ -95,10 +86,8 @@ format:
 
 :::: {.card-body .d-flex .justify-content-center .align-items-center}
 [Scientific communication]{.p-group-font}
-
+</a>
 ::::
-
-<!-- </a> -->
 :::::
 ::::::
 :::::::::::::::::::
