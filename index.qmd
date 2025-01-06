@@ -1,14 +1,15 @@
-::: full-width
-::: content-wrapper
+::: {.full-width}
+::: {.full-width-content}
 # Translating ecological data into conservation action
 
 [We provide quantitative support that turns ecological data into actionable insights for conservation organizations. From wildlife monitoring and corridor mapping to data management, statistical analysis, and compelling visualizations, Pisaster enables you to focus on protecting biodiversity.]{.company-description}
 
-
 <br>
 :::
+:::
 
-:::::::::::::::::::: full-width-light
+:::::::::::::::::::: {.full-width .bg-light}
+::: {.full-width-content}
 ## What we do
 
 ::::::::::::::::::: grid
@@ -17,7 +18,7 @@
 <!-- <a href="services.qmd#analyze-wildlife-data" class="d-block text-decoration-none">  -->
 
 :::: {.card-body .d-flex .flex-column}
-::: top-aligned
+::: {.top-aligned}
 ### Analyze wildlife data
 
 -   Understand population trends, habitat use, and species distribution from your monitoring data
@@ -34,7 +35,7 @@
 <!-- <a href="services.qmd#design-resilient-landscapes" class="d-block text-decoration-none">  -->
 
 :::: {.card-body .d-flex .flex-column}
-::: top-aligned
+::: {.top-aligned}
 ### Map resilient landscapes
 
 -   Identify climate-resilient wildlife corridors using spatial analysis and connectivity modeling
@@ -51,7 +52,7 @@
 <!-- <a href="services.qmd#streamline-data-workflows" class="d-block text-decoration-none">  -->
 
 :::: {.card-body .d-flex .flex-column}
-::: top-aligned
+::: {.top-aligned}
 ### Streamline data workflows
 
 -   Clean, organize, and manage your ecological data efficiently
@@ -69,7 +70,7 @@
 <!-- <a href="services.qmd#visualize-your-impact" class="d-block text-decoration-none">  -->
 
 :::: {.card-body .d-flex .flex-column}
-::: top-aligned
+::: {.top-aligned}
 ### Visualize your impact
 
 -   Communicate complex ecological data clearly and effectively with compelling maps, infographics, and figures
@@ -84,8 +85,10 @@
 
 <br>
 ::::::::::::::::::::
+:::
 
-::: full-width
+::: {.full-width}
+::: {.full-width-content}
 ## Let's collaborate
 
 [Pisaster empowers conservation organizations to take action with their ecological data. With expertise in wildlife monitoring, landscape connectivity, and advanced statistical analysis, we provide the clear, actionable insights needed to advance their mission to protect biodiversity and ecosystem resilience.]{.p-h3-font}
@@ -96,3 +99,5 @@
 
 <a class="card-link" href="mailto:hello@pisaster.com?subject=Website%20inquiry">Email us</a>
 :::
+:::::::::::::::::::::::
+

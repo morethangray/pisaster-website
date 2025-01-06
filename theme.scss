@@ -175,22 +175,43 @@ $link-font-size:   $font-size-base * 0.8 !default;
     background-color: $body-bg;
     width: 100vw; /* Use 100% of the viewport width */
     margin-left: calc(-50vw + 50%); /* Offset to break out of the container */
-    padding: 50px;
+    margin-right: calc(-50vw + 50%);
+    padding: 3rem 0; /* Vertical padding */
 }
-
-.full-width .content-wrapper {
-    width: 61%; /* Restrict content width to 65% */
-    margin-left: 0; /* Keep content left-aligned */
-    margin-right: auto; /* Ensure no extra space on the right */
-}
-
 
 .full-width-light {
     background-color: $light;
     width: 100vw; /* Use 100% of the viewport width */
     margin-left: calc(-50vw + 50%); /* Offset to break out of the container */
-    padding: 50px;
+    margin-right: calc(-50vw + 50%);
+    padding: 3rem 0; /* Vertical padding */
 }
+
+
+.full-width .bg-light {
+    background-color: $light; /* Light background */
+}
+
+.full-width-content {
+  margin: 0 auto; 
+
+  @media (min-width: 576px) {
+    max-width: 540px;
+  }
+  @media (min-width: 768px) {
+    max-width: 720px;
+  }
+  @media (min-width: 992px) {
+    max-width: 960px;
+  }
+  @media (min-width: 1200px) {
+    max-width: 1140px;
+  }
+  @media (min-width: 1400px) {
+    max-width: 1320px;
+  }
+}
+
 
 .navbar-brand img { 
   max-height: 30px;
