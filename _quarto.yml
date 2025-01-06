@@ -12,11 +12,11 @@ website:
     logo: assets/images/logo_60ppi_crop.png 
     
   # sub-pages
-    # right:
+    right:
       # - text: "Home"
       #   href: index.qmd
-      # - text: "Services"
-      #   href: services.qmd
+      - text: "Services"
+        href: services.qmd
       # - text: "Reviews"
       #   href: reviews.qmd
       # - text: "About"
@@ -39,10 +39,7 @@ website:
   page-footer:
     left: | 
       {{< fa regular copyright >}} 2024 Pisaster 
-    # right: Website built with [Quarto](https://quarto.org/) 
     border: false
-  
-
 
 format:
   html:

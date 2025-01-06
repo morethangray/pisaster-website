@@ -1,13 +1,29 @@
 ---
-format: html
-toc: false
-draft: true
+format:
+  html:
+    body-classes: light-page
 ---
 
-## Analyze wildlife data {#analyze-wildlife-data}
+## What we do
 
-## Design resilient landscapes {#design-resilient-landscapes}
+### Analyze wildlife data {#analyze-wildlife-data}
+-   Understand population trends, habitat use, and species distribution from your monitoring data
+-   Design effective monitoring programs and create compelling visualizations to communicate your findings
 
-## Streamline data workflows {#streamline-data-workflows}
+### Map resilient landscapes {#map-resilient-landscapes}
+-   Identify climate-resilient wildlife corridors using spatial analysis and connectivity modeling
+-   Inform conservation planning and adaptation strategies that ensure long-term ecosystem health
 
-## Visualize your impact {#visualize-your-impact}
+### Streamline data workflows {#streamline-data-workflows}
+-   Clean, organize, and manage your ecological data efficiently
+-   Develop custom, reproducible workflows for analysis and reporting
+
+### Research design & statistics {#research-design-statistics}
+-   Provide statistical design, analysis, and consulting
+
+### Visualize your impact {#visualize-your-impact}
+-   Communicate complex ecological data clearly and effectively with compelling maps, infographics, and figures
+
+
+### Scientific communication {#scientific-communication}
+-   Create presentations and reports tailored for diverse audiences, from technical experts to the general public

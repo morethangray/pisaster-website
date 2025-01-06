@@ -1,28 +1,37 @@
-::: {.full-width}
-::: {.full-width-content}
+---
+format:
+  html:
+    css: theme.scss 
+    body-classes: default-page
+---
+
+:::: full-width
+::: full-width-content
 # Translating ecological data into conservation action
 
-[We provide quantitative support that turns ecological data into actionable insights for conservation organizations. From wildlife monitoring and corridor mapping to data management, statistical analysis, and compelling visualizations, Pisaster enables you to focus on protecting biodiversity.]{.company-description}
+[Providing quantitative support that turns ecological data into actionable insights for conservation organizations. From wildlife monitoring and corridor mapping to data management, statistical analysis, and compelling visualizations, Pisaster enables you to focus on protecting biodiversity.]{.company-description}
 
 <br>
-:::
-:::
 
-:::::::::::::::::::: {.full-width .bg-light}
-::: {.full-width-content}
+<a class="card-link" href="mailto:hello@pisaster.com?subject=Website%20inquiry">Contact</a>
+
+:::
+::::
+
+
+:::: {.full-width .bg-light}
+::: full-width-content
 ## What we do
 
 ::::::::::::::::::: grid
-:::::: {.g-col-12 .g-col-md-6}
-::::: {.card-light .card .h-100}
-<!-- <a href="services.qmd#analyze-wildlife-data" class="d-block text-decoration-none">  -->
+:::::: {.g-col-12 .g-col-md-4}
+::::: {.card-dark .card .h-100}
+<a href="services.qmd#analyze-wildlife-data" class="d-block text-decoration-none">
 
 :::: {.card-body .d-flex .flex-column}
-::: {.top-aligned}
-### Analyze wildlife data
+::: {.centered}
+[Analyze wildlife data]{.p-group-font}
 
--   Understand population trends, habitat use, and species distribution from your monitoring data
--   Design effective monitoring programs and create compelling visualizations to communicate your findings
 :::
 ::::
 
@@ -30,16 +39,14 @@
 :::::
 ::::::
 
-:::::: {.g-col-12 .g-col-md-6}
-::::: {.card-light .card .h-100}
-<!-- <a href="services.qmd#design-resilient-landscapes" class="d-block text-decoration-none">  -->
+:::::: {.g-col-12 .g-col-md-4}
+::::: {.card-dark .card .h-100}
+<a href="services.qmd#map-resilient-landscapes" class="d-block text-decoration-none">
 
 :::: {.card-body .d-flex .flex-column}
-::: {.top-aligned}
-### Map resilient landscapes
+::: {.centered}
+[Map resilient landscapes]{.p-group-font}
 
--   Identify climate-resilient wildlife corridors using spatial analysis and connectivity modeling
--   Inform conservation planning and adaptation strategies that ensure long-term ecosystem health
 :::
 ::::
 
@@ -47,17 +54,14 @@
 :::::
 ::::::
 
-:::::: {.g-col-12 .g-col-md-6}
-::::: {.card-light .card .h-100}
-<!-- <a href="services.qmd#streamline-data-workflows" class="d-block text-decoration-none">  -->
+:::::: {.g-col-12 .g-col-md-4}
+::::: {.card-dark .card .h-100}
+<a href="services.qmd#streamline-data-workflows" class="d-block text-decoration-none">
 
 :::: {.card-body .d-flex .flex-column}
-::: {.top-aligned}
-### Streamline data workflows
+::: {.centered}
+[Streamline data workflows]{.p-group-font}
 
--   Clean, organize, and manage your ecological data efficiently
--   Develop custom, reproducible workflows for analysis and reporting
--   Provide statistical design, analysis, and consulting
 :::
 ::::
 
@@ -65,30 +69,62 @@
 :::::
 ::::::
 
-:::::: {.g-col-12 .g-col-md-6}
-::::: {.card-light .card .h-100}
-<!-- <a href="services.qmd#visualize-your-impact" class="d-block text-decoration-none">  -->
+:::::: {.g-col-12 .g-col-md-4}
+::::: {.card-dark .card .h-100}
+<a href="services.qmd#research-design-statistics" class="d-block text-decoration-none">
 
 :::: {.card-body .d-flex .flex-column}
-::: {.top-aligned}
-### Visualize your impact
+::: {.centered}
+[Research design & statistics]{.p-group-font}
 
--   Communicate complex ecological data clearly and effectively with compelling maps, infographics, and figures
--   Create presentations and reports tailored for diverse audiences, from technical experts to the general public
 :::
 ::::
 
 </a>
+:::::
+::::::
+
+:::::: {.g-col-12 .g-col-md-4}
+::::: {.card-dark .card .h-100}
+<a href="services.qmd#visualize-your-impact" class="d-block text-decoration-none">
+
+:::: {.card-body .d-flex .flex-column}
+::: {.centered}
+[Visualize your impact]{.p-group-font}
+:::
+::::
+
+</a>
+:::::
+::::::
+
+
+
+:::::: {.g-col-12 .g-col-md-4}
+::::: {.card-dark .card .h-100}
+<a href="services.qmd#scientific-communication" class="d-block text-decoration-none">
+
+:::: {.card-body .d-flex .flex-column}
+::: {.centered}
+[Scientific communication]{.p-group-font}
+
+:::
+::::
+
+<!-- </a> -->
 :::::
 ::::::
 :::::::::::::::::::
 
 <br>
-::::::::::::::::::::
-:::
 
-::: {.full-width}
-::: {.full-width-content}
+:::
+::::
+
+
+
+:::: full-width
+::: full-width-content
 ## Let's collaborate
 
 [Pisaster empowers conservation organizations to take action with their ecological data. With expertise in wildlife monitoring, landscape connectivity, and advanced statistical analysis, we provide the clear, actionable insights needed to advance their mission to protect biodiversity and ecosystem resilience.]{.p-h3-font}
@@ -97,7 +133,6 @@
 
 <!-- [Email us]{.card-link} -->
 
-<a class="card-link" href="mailto:hello@pisaster.com?subject=Website%20inquiry">Email us</a>
+<a class="card-link" href="mailto:hello@pisaster.com?subject=Website%20inquiry">Contact</a>
 :::
-:::::::::::::::::::::::
-
+::::
