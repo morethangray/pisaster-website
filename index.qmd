@@ -28,13 +28,10 @@ format:
 ::::: {.card-dark .card .h-100}
 <a href="services.qmd#analyze-wildlife-data" class="d-block text-decoration-none">
 
-:::: {.card-body .d-flex .flex-column}
-::: {.centered}
+:::: {.card-body .d-flex .justify-content-center .align-items-center}
 [Analyze wildlife data]{.p-group-font}
 
-:::
 ::::
-
 </a>
 :::::
 ::::::
@@ -43,11 +40,9 @@ format:
 ::::: {.card-dark .card .h-100}
 <a href="services.qmd#map-resilient-landscapes" class="d-block text-decoration-none">
 
-:::: {.card-body .d-flex .flex-column}
-::: {.centered}
+:::: {.card-body .d-flex .justify-content-center .align-items-center}
 [Map resilient landscapes]{.p-group-font}
 
-:::
 ::::
 
 </a>
@@ -58,11 +53,9 @@ format:
 ::::: {.card-dark .card .h-100}
 <a href="services.qmd#streamline-data-workflows" class="d-block text-decoration-none">
 
-:::: {.card-body .d-flex .flex-column}
-::: {.centered}
+:::: {.card-body .d-flex .justify-content-center .align-items-center}
 [Streamline data workflows]{.p-group-font}
 
-:::
 ::::
 
 </a>
@@ -73,11 +66,9 @@ format:
 ::::: {.card-dark .card .h-100}
 <a href="services.qmd#research-design-statistics" class="d-block text-decoration-none">
 
-:::: {.card-body .d-flex .flex-column}
-::: {.centered}
+:::: {.card-body .d-flex .justify-content-center .align-items-center}
 [Research design & statistics]{.p-group-font}
 
-:::
 ::::
 
 </a>
@@ -88,10 +79,8 @@ format:
 ::::: {.card-dark .card .h-100}
 <a href="services.qmd#visualize-your-impact" class="d-block text-decoration-none">
 
-:::: {.card-body .d-flex .flex-column}
-::: {.centered}
+:::: {.card-body .d-flex .justify-content-center .align-items-center}
 [Visualize your impact]{.p-group-font}
-:::
 ::::
 
 </a>
@@ -104,11 +93,9 @@ format:
 ::::: {.card-dark .card .h-100}
 <a href="services.qmd#scientific-communication" class="d-block text-decoration-none">
 
-:::: {.card-body .d-flex .flex-column}
-::: {.centered}
+:::: {.card-body .d-flex .justify-content-center .align-items-center}
 [Scientific communication]{.p-group-font}
 
-:::
 ::::
 
 <!-- </a> -->
