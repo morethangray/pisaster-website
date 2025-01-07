@@ -4,8 +4,8 @@ format:
   html:
     body-classes: light-page
 ---
-
-### Analyze wildlife data {#analyze-wildlife-data}
+<!-- ## Analyze wildlife data {#analyze-wildlife-data} -->
+## ANALYZE WILDLIFE DATA {#analyze-wildlife-data}
 -   Understand population trends, habitat use, and species distribution from your monitoring data
 -   Design effective monitoring programs and create compelling visualizations to communicate your findings
 

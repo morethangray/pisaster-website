@@ -1,61 +1,35 @@
 /*-- scss:defaults --*/
 //  my colors  
-// browns
-$brown-005: #FBFAF9 !default;
-$brown-006: #F7F6F5 !default;
-$brown-010: #F7F5F3 !default;
-$brown-020: #F4F0EE !default;
-$brown-100: #F0ECE9 !default;
-$brown-150: #E3DEDA !default;
-$brown-200: #CCC5BE !default;
-$brown-300: #ABA297 !default;
-$brown-400: #8D8173 !default;
-$brown-500: #807363 !default;
-$brown-600: #6F614F !default;
-$brown-700: #635441 !default;
-$brown-800: #534534 !default;
-$brown-900: #2F2316 !default;
+$winslow-1:		#FAFAF8	!default;	// light background for secondary pages
+$winslow-2:		#F0EFE9	!default;	// background for primary pages
+$winslow-3:		#E6E5DF	!default;	// darkest box for $winslow-2
+$yellow-1:  	#D6AF90	!default;	
+$yellow-2:  	#ECDABC	!default;	
+$yellow-3:  	#F1E6D1	!default;	// light box on $yellow-2
+$orange-1:  	#CB785C	!default;	
+$orange-2:  	#D18D71	!default;	
+$orange-3:  	#D59F8C	!default;	
+$orange-4:  	#D9A897	!default;	
+$seastar:   	#BA5F06	!default;	// logo color
+$text-body:	  #403C2C	!default;	// 1rem ok
+$text-h1:	    #83827A	!default;	// 2rem on $winslow-2
+$text-h2:	    #6F6D5F	!default;	// 1.5rem on $winslow-2
+$text-h3:   	#555247	!default;	// 1.5rem on $winslow-2
 
-$seastar:    #BA5F06 !default;
+$text-dark-1:	#21201d	!default;	// 1rem ok on $orange-3
+$text-dark-2:	#4B473F	!default;	// logo font color
 
-$winslow-1:	#FAFAF8 !default;
-$winslow-2:	#F0EFE9 !default;
-$winslow-3:	#E6E5DF !default;
-$yellow-1:  #D6AF90 !default;
-$yellow-2:  #ECDABC !default;
-$yellow-3:  #F1E6D1 !default;
-$orange-1:  #CB785C !default;
-$orange-2:  #D18D71 !default;
-$orange-3:  #D59F8C !default;
-$gray-1:    #737471 !default;
-$gray-2:    #979791 !default;
-$gray-3:    #949491 !default;
-$gray-4:    #C4C3BB !default;
+$primary:	    #4b4843	!default;	// 1rem ok
+$secondary:	  #A5A39A	!default;	
+$light:	      $winslow-1 !default;	
+$dark:	      $text-dark-1 !default; 
 
-$text-selected: #828179 !default;
-$text-body:     #403C2C !default;
-$text-date:     #A5A39A !default;
-$text-h1:       #6F6D5F !default;
-$text-h2:       #555247 !default;
-$text-logo:     #2A261B !default;
-$text-title:    #424242 !default;
-$text-title-faded: #83827A !default;
-
-
-// Base document colors
-$primary:       #4b4843 !default;
-$secondary:     #A5A39A !default;
-$light:         $winslow-1 !default;
-$dark:          #635441 !default;
-
-$body-bg:  $winslow-2; // page background 
-$body-color: $primary; // page text 
-$navbar-bg: $body-bg; // navbar
-$navbar-fg: $body-color; // navbar foreground elements
-$navbar-hl: $seastar; // highlight color when hovering over navbar links
-$link-color: $primary; // hyperlinks 
-
-
+$body-bg:	    $winslow-2;		// page background
+$navbar-bg:	  $body-bg;		// navbar
+$body-color:	$primary;		// page text
+$navbar-fg:	  $body-color;		// navbar foreground elements
+$link-color:	$primary;		// hyperlinks
+$navbar-hl:	  $seastar;		// highlight color when hover over navbar links
 
 // Fonts
 @font-face {
@@ -122,33 +96,116 @@ $link-color: $primary; // hyperlinks
   font-style: normal;
 }
 
+// Condensed fonts
+@font-face {
+  font-family: 'Gill Sans Nova Cn Book';
+  src: url('assets/fonts/GillSansNova-Cn-Book.woff2') format('woff2'),
+       url('assets/fonts/GillSansNova-Cn-Book.woff') format('woff');
+  //font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gill Sans Nova Cn Medium';
+  src: url('assets/fonts/GillSansNova-Cn-Medium.woff2') format('woff2'),
+       url('assets/fonts/GillSansNova-Cn-Medium.woff') format('woff');
+  //font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gill Sans Nova Cn SemiBold';
+  src: url('assets/fonts/GillSansNova-Cn-SemiBold.woff2') format('woff2'),
+       url('assets/fonts/GillSansNova-Cn-SemiBold.woff') format('woff');
+  //font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gill Sans Nova Cn Bold';
+  src: url('assets/fonts/GillSansNova-Cn-Bold.woff2') format('woff2'),
+       url('assets/fonts/GillSansNova-Cn-Bold.woff') format('woff');
+  //font-weight: 700;
+  font-style: normal;
+}
+
 // Define Font Variables
-$font-family-sans-serif: 'Gill Sans Nova Light', sans-serif !default;
-$font-family-sans-serif-book: 'Gill Sans Nova Book', sans-serif !default;
-$font-family-sans-serif-medium: 'Gill Sans Nova Medium', sans-serif !default;
-$font-family-sans-serif-semibold: 'Gill Sans Nova SemiBold', sans-serif !default;
-$font-family-sans-serif-bold: 'Gill Sans Nova Bold', sans-serif !default;
-$font-family-sans-serif-heavy: 'Gill Sans Nova Heavy', sans-serif !default;
-$font-family-sans-serif-extrabold: 'Gill Sans Nova ExtraBold', sans-serif !default;
-$font-family-sans-serif-ultrabold: 'Gill Sans Nova UltraBold', sans-serif !default;
+$font-gsn-light: 'Gill Sans Nova Light', sans-serif !default;
+$font-gsn-book: 'Gill Sans Nova Book', sans-serif !default;
+$font-gsn-medium: 'Gill Sans Nova Medium', sans-serif !default;
+$font-gsn-semibold: 'Gill Sans Nova SemiBold', sans-serif !default;
+$font-gsn-bold: 'Gill Sans Nova Bold', sans-serif !default;
+$font-gsn-heavy: 'Gill Sans Nova Heavy', sans-serif !default;
+$font-gsn-extrabold: 'Gill Sans Nova ExtraBold', sans-serif !default;
+$font-gsn-ultrabold: 'Gill Sans Nova UltraBold', sans-serif !default;
+
+$font-gsn-cn-book: 'Gill Sans Nova Cn Book', sans-serif !default;
+$font-gsn-cn-medium: 'Gill Sans Nova Cn Medium', sans-serif !default;
+$font-gsn-cn-semibold: 'Gill Sans Nova Cn SemiBold', sans-serif !default;
+$font-gsn-cn-bold: 'Gill Sans Nova Cn Bold', sans-serif !default;
 
 $font-family-serif: 'Times New Roman', serif !default;
+
 // Font sizes;
 $font-size-base:   1rem; //!default; // Assumes the browser default, typically `16px`
-$h1-font-size:     $font-size-base * 2.5 !default;
-$h2-font-size:     $font-size-base * 1.75 !default;
-$h3-font-size:     $font-size-base * 1.25 !default;
+$h1-font-size:     $font-size-base * 4 !default;
+$h2-font-size:     $font-size-base * 3 !default;
+$h3-font-size:     $font-size-base * 2.5 !default;
 $h4-font-size:     $font-size-base * 1.25 !default;
 $h5-font-size:     $font-size-base * 1.25 !default;
 $h6-font-size:     $font-size-base !default;
+
 $link-font-size:   $font-size-base * 0.8 !default;
-$group-font-size:  $font-size-base * 1.35 !default;
+$p135-font-size:  $font-size-base * 1.35 !default;
+$p125-font-size:  $font-size-base * 1.25 !default;
+$p115-font-size:  $font-size-base * 1.15 !default;
 
 
 /*-- scss:rules --*/
+// font formatting
+h1, h2, h3 {
+  color: $primary;
+}
 
+h1 {
+  font-family: $font-gsn-cn-book;
+  color: $text-h3;
+  font-size: 6rem;
+  letter-spacing: 0.02em;
+  margin-top: 1rem;
+  margin-bottom: 3.5rem;
+  border-bottom: none;
+}
 
-// for page background
+h2 {
+  font-family: $font-gsn-cn-book;
+  color: $text-h2;
+  font-size: 3.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  border-bottom: none;
+}
+
+.p135-font {
+  font-family: $font-gsn-light;
+  font-size: 1.5rem;
+  color: $primary;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.p135-tight-font {
+  font-family: $font-gsn-book;
+  font-size: 1.5rem;
+  color: $text-h2;
+  line-height: 0.95;
+  margin: 0 !important;
+}
+
+// colors
+.c-seastar {color: $seastar}
+
+// for page and background colors
 
 // Default Styles (for primary pages - important for specificity)
 body {
@@ -160,13 +217,10 @@ body {
         color: $primary; // Or your default navbar text color
     }
 }
-.page-footer {
+.page-footer, .nav-footer {
     background-color: $body-bg; 
 
 }
-.nav-footer {
-        background-color: $body-bg; 
-    }
 
 // Secondary Page Styles
 body.light-page {
@@ -234,77 +288,23 @@ body.secondary-page {
   }
 }
 
-
 .navbar-brand img { 
   max-height: 30px;
   width: auto;
-}
-
-// font formatting
-h1, h2, h3 {
-  color: $primary;
-}
-
-h1 {
-  font-family: $font-family-sans-serif-bold;
-  margin-top: 3rem;
-  margin-bottom: 1rem;
-  border-bottom: none;
-}
-
-h2 {
-  font-family: $font-family-sans-serif-semibold;
-  margin-top: 3rem;
-  margin-bottom: 1rem;
-  border-bottom: none;
-}
-
-h3 {
-  font-family: $font-family-sans-serif-medium;
-  margin-top: 0;
-  margin-bottom: 1rem;
-}
-
-.company-description {
-  //font-family: $font-family-sans-serif-semibold;
-  font-size: $h3-font-size;
-  color: $text-h1;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
-.p-job-title {
-  font-family: $font-family-sans-serif-semibold;
-  font-size: $h3-font-size;
-  color: $secondary;
-  margin-top: 0rem;
-  margin-bottom: 2rem;
-}
-
-.p-h3-font {
-  font-size: $h3-font-size;
-  color: $text-h1;
-  margin-top: 1rem;
-  margin-bottom: 2rem;
-}
-
-.p-group-font {
-  font-size: $group-font-size;
-  margin: 0 !important;
 }
 
 // for cards
 .card-light {
   background-color: $light;
   border: none;
-  border-radius: 9px; 
+  //border-radius: 9px; 
   padding: 0px 1rem 0px 1rem !important;
 }
 
 .card-dark {
   background-color: $winslow-2;
   border: none;
-  border-radius: 9px; 
+  //border-radius: 9px; 
   padding: 0px 1rem 0px 1rem !important;
 }
 
@@ -316,20 +316,17 @@ h3 {
   text-align: center; /* Center-align text */
 }
 
-.card-link {
-    background-color: $orange-3;
-    //color: $winslow-2; 
-    color: inherit; 
-    // border: 1.5px solid $secondary;
-    padding: 10px 1rem 10px 1rem !important;
+.card-contact {
+    background-color: $orange-4;
+    color: $text-body; 
+    letter-spacing: 0.1em;
+    padding: 1rem 2rem 1rem 2rem !important;
     margin: 0;
-    border-radius: 9px; 
+    //border-radius: 9px; 
     display: inline-block;
     text-decoration: none;  
-    font-size: $h3-font-size;
-    //font-size: $link-font-size;
-    font-family: $font-family-sans-serif-book;
-    //font-family: $font-family-sans-serif-book;
+    font-size: 1.35rem;
+    font-family: $font-gsn-cn-semibold;
     cursor: pointer;
 }
 
