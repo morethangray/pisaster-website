@@ -1,19 +1,5 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Team",
-    "section": "",
-    "text": "Principal and Quantitative Ecologist\nMaking ecological data work for conservation isn’t just about numbers - it’s about understanding what matters to the people doing vital conservation work. After 15 years in ecological data analysis and time in the non-profit sector, I’ve seen firsthand how organizations often struggle to transform their monitoring data into meaningful conservation actions.\nThat’s where I come in. I help conservation organizations tackle their data challenges, whether it’s designing wildlife monitoring plans, analyzing camera trap data, mapping connectivity corridors, or creating clear visualizations that tell their story. My approach combines statistical expertise with a deep appreciation for the practical realities of conservation work.\nI specialize in wildlife monitoring analysis and connectivity mapping, but my skills extend to any project involving ecological data. From cleaning long-term datasets to creating automated workflows, from statistical design to compelling visualizations, if ecological data is slowing down your conservation work, I’m here to help.\nWhat sets my work apart is my ability to make complex scientific concepts accessible. I explain things in plain language and create clear visuals so you always understand what the results mean and why they matter. My clients appreciate that I bring both statistical rigor and a collaborative, approachable style to every project.\nMy focus is on taking the stress out of the scientific process so conservation organizations can concentrate on what they do best. Whether you need help with a specific analysis or ongoing statistical support, I’m here to make sure your data works as hard as you do for conservation.\n\n\nPhD in Environmental Science, Policy & Management | UC Berkeley\nBA in Integrative Biology | UC Berkeley"
-  },
-  {
-    "objectID": "about.html#morgan-gray-phd",
-    "href": "about.html#morgan-gray-phd",
-    "title": "Team",
-    "section": "",
-    "text": "Principal and Quantitative Ecologist\nMaking ecological data work for conservation isn’t just about numbers - it’s about understanding what matters to the people doing vital conservation work. After 15 years in ecological data analysis and time in the non-profit sector, I’ve seen firsthand how organizations often struggle to transform their monitoring data into meaningful conservation actions.\nThat’s where I come in. I help conservation organizations tackle their data challenges, whether it’s designing wildlife monitoring plans, analyzing camera trap data, mapping connectivity corridors, or creating clear visualizations that tell their story. My approach combines statistical expertise with a deep appreciation for the practical realities of conservation work.\nI specialize in wildlife monitoring analysis and connectivity mapping, but my skills extend to any project involving ecological data. From cleaning long-term datasets to creating automated workflows, from statistical design to compelling visualizations, if ecological data is slowing down your conservation work, I’m here to help.\nWhat sets my work apart is my ability to make complex scientific concepts accessible. I explain things in plain language and create clear visuals so you always understand what the results mean and why they matter. My clients appreciate that I bring both statistical rigor and a collaborative, approachable style to every project.\nMy focus is on taking the stress out of the scientific process so conservation organizations can concentrate on what they do best. Whether you need help with a specific analysis or ongoing statistical support, I’m here to make sure your data works as hard as you do for conservation.\n\n\nPhD in Environmental Science, Policy & Management | UC Berkeley\nBA in Integrative Biology | UC Berkeley"
-  },
-  {
     "objectID": "index.html#what-we-do",
     "href": "index.html#what-we-do",
     "title": "Translating ecological data into conservation action",
@@ -137,7 +123,7 @@
     "href": "services.html",
     "title": "Pisaster",
     "section": "",
-    "text": "Understand population trends, habitat use, and species distribution from your monitoring data\nDesign effective monitoring programs and create compelling visualizations to communicate your findings\n\n\n\n\n\nIdentify climate-resilient wildlife corridors using spatial analysis and connectivity modeling\nInform conservation planning and adaptation strategies that ensure long-term ecosystem health\n\n\n\n\n\nClean, organize, and manage your ecological data efficiently\nDevelop custom, reproducible workflows for analysis and reporting\n\n\n\n\n\nProvide statistical design, analysis, and consulting\n\n\n\n\n\nCommunicate complex ecological data clearly and effectively with compelling maps, infographics, and figures\n\n\n\n\n\nCreate presentations and reports tailored for diverse audiences, from technical experts to the general public"
+    "text": "Analyze wildlife data\n\nUnderstand population trends, habitat use, and species distribution from your monitoring data\nDesign effective monitoring programs and create compelling visualizations to communicate your findings\n\n\n\nMap resilient landscapes\n\nIdentify climate-resilient wildlife corridors using spatial analysis and connectivity modeling\nInform conservation planning and adaptation strategies that ensure long-term ecosystem health\n\n\n\nStreamline data workflows\n\nClean, organize, and manage your ecological data efficiently\nDevelop custom, reproducible workflows for analysis and reporting\n\n\n\nResearch design & statistics\n\nProvide statistical design, analysis, and consulting\n\n\n\nVisualize your impact\n\nCommunicate complex ecological data clearly and effectively with compelling maps, infographics, and figures\n\n\n\nScientific communication\n\nCreate presentations and reports tailored for diverse audiences, from technical experts to the general public"
   },
   {
     "objectID": "index.html#example-projects",
@@ -152,5 +138,65 @@
     "title": "Pisaster",
     "section": "Analyze wildlife data",
     "text": "Analyze wildlife data"
+  },
+  {
+    "objectID": "services_wildlife.html",
+    "href": "services_wildlife.html",
+    "title": "Pisaster",
+    "section": "",
+    "text": "Analyze wildlife data\n\nUnderstand population trends, habitat use, and species distribution from your monitoring data\nDesign effective monitoring programs and create compelling visualizations to communicate your findings",
+    "crumbs": [
+      "Analyze wildlife data"
+    ]
+  },
+  {
+    "objectID": "services_visualization.html",
+    "href": "services_visualization.html",
+    "title": "Pisaster",
+    "section": "",
+    "text": "Visualize your impact\n\nCommunicate complex ecological data clearly and effectively with compelling maps, infographics, and figures",
+    "crumbs": [
+      "Visualize your impact"
+    ]
+  },
+  {
+    "objectID": "services_statistics.html",
+    "href": "services_statistics.html",
+    "title": "Pisaster",
+    "section": "",
+    "text": "Research design & statistics\n\nProvide statistical design, analysis, and consulting",
+    "crumbs": [
+      "Research design & statistics"
+    ]
+  },
+  {
+    "objectID": "services_data.html",
+    "href": "services_data.html",
+    "title": "Pisaster",
+    "section": "",
+    "text": "Streamline data workflows\n\nClean, organize, and manage your ecological data efficiently\nDevelop custom, reproducible workflows for analysis and reporting",
+    "crumbs": [
+      "Streamline data workflows"
+    ]
+  },
+  {
+    "objectID": "services_landscapes.html",
+    "href": "services_landscapes.html",
+    "title": "Pisaster",
+    "section": "",
+    "text": "Map resilient landscapes\n\nIdentify climate-resilient wildlife corridors using spatial analysis and connectivity modeling\nInform conservation planning and adaptation strategies that ensure long-term ecosystem health",
+    "crumbs": [
+      "Map resilient landscapes"
+    ]
+  },
+  {
+    "objectID": "services_communication.html",
+    "href": "services_communication.html",
+    "title": "Pisaster",
+    "section": "",
+    "text": "Scientific communication\n\nCreate presentations and reports tailored for diverse audiences, from technical experts to the general public",
+    "crumbs": [
+      "Scientific communication"
+    ]
   }
 ]

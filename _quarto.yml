@@ -5,6 +5,9 @@ website:
   title: "Pisaster"
   favicon: assets/images/favicon_60ppi.png
   
+  drafts: 
+    - about.qmd
+  
   # start of the navigation bar at the top of the website
   navbar:
     title: false
@@ -13,24 +16,17 @@ website:
     
   # sub-pages
     right:
-      # - text: "Home"
-      #   href: index.qmd
+      - text: "Home"
+        href: index.qmd
       - text: "Services"
         href: services.qmd
+      
       # - text: "Reviews"
       #   href: reviews.qmd
       # - text: "About"
       #   href: about.qmd
       # - text: "Contact"
       #   href: contact.qmd
-      
-  # sidebar:
-  #   - title: "About"
-  #     style: "docked"
-  #     background: light
-  #     contents:
-  #       - about#team.qmd
-  #       - about#pisaster.qmd
         
   search:
     location: navbar

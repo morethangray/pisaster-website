@@ -1,10 +1,9 @@
 ---
+toc: true
 format:
   html:
     body-classes: light-page
 ---
-
-## What we do
 
 ### Analyze wildlife data {#analyze-wildlife-data}
 -   Understand population trends, habitat use, and species distribution from your monitoring data
@@ -27,3 +26,4 @@ format:
 
 ### Scientific communication {#scientific-communication}
 -   Create presentations and reports tailored for diverse audiences, from technical experts to the general public
+
