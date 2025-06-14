@@ -1,13 +1,12 @@
 ---
 format:
   html:
-    css: theme.scss 
     body-classes: default-page
 ---
 
 :::: full-width
 ::: full-width-content
-# Translating ecological data into conservation action
+## Translating ecological data into conservation action 
 <!-- # TRANSLATING ECOLOGICAL DATA INTO CONSERVATION ACTION -->
 
 [We provide quantitative support that turns ecological data into actionable insights for conservation organizations. From wildlife monitoring and corridor mapping to data management, statistical analysis, and compelling visualizations, Pisaster enables you to focus on protecting biodiversity.]{.p135-font}
@@ -24,7 +23,7 @@ format:
 
 :::: {.full-width .bg-light}
 ::: full-width-content
-## WHAT WE DO
+## What we do
 
 ::::::::::::::::::: grid
 :::::: {.g-col-12 .g-col-md-4}
@@ -104,7 +103,7 @@ format:
 :::: full-width
 ::: full-width-content
 <!-- ## Let's collaborate -->
-## LET'S COLLABORATE
+## Let's collaborate
 
 [Pisaster empowers conservation organizations to take action with their ecological data. With expertise in wildlife monitoring, landscape connectivity, and advanced statistical analysis, we provide the clear, actionable insights needed to advance their mission to protect biodiversity and ecosystem resilience.]{.p135-font}
 

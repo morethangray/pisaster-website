@@ -1,16 +1,15 @@
-::: {.full-width}
-::: {.full-width-content}
+:::: full-width
+::: full-width-content
 # h1 Tagline facilisis lorem ipsum odor amet elit
 
 [company-description About ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.]{.company-description}
 
-
 <br>
 :::
-:::
+::::
 
-:::::::::::::::::::: {.full-width .bg-light}
-::: {.full-width-content}
+::::::::::::::::::::: {.full-width .bg-light}
+:::::::::::::::::::: full-width-content
 ## h2 Netus ac eget
 
 ::::::::::::::::::: grid
@@ -19,8 +18,9 @@
 <!-- <a href="link" class="d-block text-decoration-none">  -->
 
 :::: {.card-body .d-flex .flex-column}
-::: {.top-aligned}
+::: top-aligned
 ### h3 Primis habise euismod
+
 -   Conubia dis nam rhoncus magna sodales malesuada. Orci felis pellentesque hac odio cursus
 -   Egestas hendrerit magna et cubilia tempus pharetra nisi aliquam vel auctor curabitur a quis.
 :::
@@ -35,8 +35,9 @@
 <!-- <a href="link" class="d-block text-decoration-none">  -->
 
 :::: {.card-body .d-flex .flex-column}
-::: {.top-aligned}
+::: top-aligned
 ### h3 Primis habise euismod
+
 -   Conubia dis nam rhoncus magna sodales malesuada. Orci felis pellentesque hac odio cursus
 -   Egestas hendrerit magna et cubilia tempus pharetra nisi aliquam vel auctor curabitur a quis.
 :::
@@ -51,8 +52,9 @@
 <!-- <a href="link" class="d-block text-decoration-none">  -->
 
 :::: {.card-body .d-flex .flex-column}
-::: {.top-aligned}
+::: top-aligned
 ### h3 Primis habise euismod
+
 -   Conubia dis nam rhoncus magna sodales malesuada. Orci felis pellentesque hac odio cursus
 -   Egestas hendrerit magna et cubilia tempus pharetra nisi aliquam vel auctor curabitur a quis.
 :::
@@ -67,8 +69,9 @@
 <!-- <a href="link" class="d-block text-decoration-none">  -->
 
 :::: {.card-body .d-flex .flex-column}
-::: {.top-aligned}
+::: top-aligned
 ### h3 Primis habise euismod
+
 -   Conubia dis nam rhoncus magna sodales malesuada. Orci felis pellentesque hac odio cursus
 -   Egestas hendrerit magna et cubilia tempus pharetra nisi aliquam vel auctor curabitur a quis.
 :::
@@ -81,11 +84,11 @@
 
 <br>
 ::::::::::::::::::::
-:::
+:::::::::::::::::::::
 
-::: {.full-width}
-::: {.full-width-content}
-## h2 Vultate faubus libero 
+:::: full-width
+::: full-width-content
+## h2 Vultate faubus libero
 
 [p-h3-font Primis habitasse euismod diam luctus laoreet. Faucibus aptent vel pulvinar vivamus dictum dis iaculis. Justo risus pellentesque risus iaculis tellus finibus. Tellus mattis ullamcorper egestas tellus magnis. Nullam ipsum est facilisis gravida, rhoncus class augue pellentesque tempor.]{.p-h3-font}
 
@@ -93,4 +96,4 @@
 
 <a class="card-link" href="mailto:hello@companycompany.com?subject=Website%20inquiry">card-link</a>
 :::
-:::
+::::

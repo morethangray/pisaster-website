@@ -5,43 +5,38 @@ website:
   title: "Pisaster"
   favicon: assets/images/favicon_60ppi.png
   
-  drafts: 
-    - about.qmd
-  
   # start of the navigation bar at the top of the website
   navbar:
     title: false
     pinned: true
+    search: false
     logo: assets/images/logo_60ppi_crop.png 
     
   # sub-pages
-    right:
-      - text: "Home"
-        href: index.qmd
-      - text: "Services"
-        href: services.qmd
-      
+    # right:
+    #   - text: "Home"
+    #     href: index.qmd
+    #   - text: "Services"
+    #     href: services.qmd
       # - text: "Reviews"
       #   href: reviews.qmd
       # - text: "About"
       #   href: about.qmd
       # - text: "Contact"
       #   href: contact.qmd
-        
-  search:
-    location: navbar
-    limit: 13
- 
+
   page-footer:
     left: | 
-      {{< fa regular copyright >}} 2024 Pisaster 
+      {{< fa regular copyright >}} 2025 Pisaster 
     border: false
 
 format:
   html:
     theme: 
       - flatly
-      - theme.scss
+      - assets/scss/fonts.scss
+      - assets/scss/webpage.scss
+      - assets/scss/social.scss    
     toc: false
 
 editor: visual

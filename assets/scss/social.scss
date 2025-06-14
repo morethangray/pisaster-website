@@ -1,0 +1,30 @@
+/*-- scss:rules --*/
+
+// Social icons
+.social-icons {
+  display: flex; /* Arrange icons horizontally */
+  justify-content: flex-start; /* Align icons to the left */
+  margin-bottom: 1rem;
+}
+
+.social-icons a {
+  color: $secondary; 
+  text-decoration: none; /* Remove underlines from links */
+  transition: color 0.3s; /* Smooth color transition on hover */
+  padding: 1rem;
+
+}
+
+/* Add padding only to the right side of icons except the last one */
+.social-icons a:not(:last-child) {
+  padding-right: 0.78rem;
+}
+
+/* Remove left padding from first icon */
+.social-icons a:first-child {
+  padding-left: 0;
+}
+
+.social-icons a:hover {
+  color: $primary; 
+}
