@@ -3,14 +3,14 @@ project:
 
 website:
   title: "Pisaster"
-  favicon: assets/images/favicon_60ppi.png
+  favicon: assets/images/favicon.png
   
   # start of the navigation bar at the top of the website
   navbar:
     title: false
     pinned: true
     search: false
-    logo: assets/images/logo_60ppi_crop.png 
+    logo: assets/images/logo.png 
     
   # sub-pages
     # right:
@@ -40,4 +40,4 @@ format:
     toc: false
 
 editor: visual
-mainfont: "Gill Sans Nova Book"
+mainfont: "Lexend"

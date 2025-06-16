@@ -1,32 +1,38 @@
 /*-- scss:defaults --*/
 //  my colors  
-// 
-$winslow-0:   #f9f9f9 !default;
-$winslow-1:		#FAFAF8	!default;	// light background for secondary pages
+
+$winslow-0:   white !default;
+$winslow-1:		#f7f6f3	!default;	// light background for secondary pages
 $winslow-2:		#F0EFE9	!default;	// background for primary pages
 $winslow-3:		#E6E5DF	!default;	// darkest box for $winslow-2
-$yellow-1:  	#D6AF90	!default;	
-$yellow-2:  	#ECDABC	!default;	
-$yellow-3:  	#F1E6D1	!default;	// light box on $yellow-2
-$orange-1:  	#CB785C	!default;	
-$orange-2:  	#D18D71	!default;	
-$orange-3:  	#D59F8C	!default;	
-$orange-4:  	#D9A897	!default;	
-$seastar:   	#BA5F06	!default;	// logo color
-$text-body:	  #403C2C	!default;	// 1rem ok
-$text-h1:	    #83827A	!default;	// 2rem on $winslow-2
-$text-h2:	    #6F6D5F	!default;	// 1.5rem on $winslow-2
-$text-h3:   	#555247	!default;	// 1.5rem on $winslow-2
+$yellow-1:  	#e4b568	!default;	
+$yellow-2:  	#eaca95	!default;	
+$yellow-3:  	#F7E9D2	!default;
+$yellow-4:  	#fbf4e8	!default;
+$orange-1:  	#D4845C	!default;	
+$orange-2:  	#E2A98D	!default;	
+$orange-3:  	#EECFBE	!default;	
+$orange-4:  	#FBF3F0	!default;	
+$teal-1:  	  #5A9C9E	!default;	
+$teal-2:  	  #8CBABB	!default;	
+$teal-3:  	  #CEE1E2	!default;	
+$teal-4:  	  #EFF5F5	!default;	
+ 
+$text-body:   #57534CAB !default;
+$text-h1:     #57534C !default;
+$text-h2:     $text-h1 !default;
+$text-h3:     $text-h1 !default;
 
-$text-dark-1:	#21201d	!default;	// 1rem ok on $orange-3
-$text-dark-2:	#4B473F	!default;	// logo font color
+$text-dark-1:	#21201d	!default;	 
+$text-dark-2:	#4B473F	!default;	 
+$seastar: $orange-1;
 
-$primary:	    #4b4843	!default;	// 1rem ok
+$primary:	    $text-body;	 
 $secondary:	  #A5A39A	!default;	
 $light:	      $winslow-1 !default;	
 $dark:	      $text-dark-1 !default; 
 
-$body-bg:	    $winslow-1;		// page background
+$body-bg:	    $winslow-0;		// page background
 $navbar-bg:	  $body-bg;		// navbar
 $body-color:	$primary;		// page text
 $navbar-fg:	  $body-color;		// navbar foreground elements
@@ -47,69 +53,82 @@ $p135-font-size:  $font-size-base * 1.35 !default;
 $p125-font-size:  $font-size-base * 1.25 !default;
 $p115-font-size:  $font-size-base * 1.15 !default;
 
-/*-- scss:rules --*/
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 700;
 
-h1, h2, h3 {
-  color: $primary;
-  font-family: $font-windsor-regular;
-  letter-spacing: 0.02em;
-  line-height: 1;
+/*-- scss:rules --*/
+body, p {
+  font-family: $font-lexend;
+  font-weight: $font-weight-regular;
+  line-height: 1.65;
+  font-size: 0.875rem;
+  padding-bottom: 0.25rem;
 }
-h1 {
-  color: $text-h3;
-  margin-top: 1rem;
-  margin-bottom: 2rem;
-  border-bottom: none;
-}
-h2 {
-  color: $text-h2;
-  margin-top: 3rem;
-  margin-bottom: 2rem;
+
+h1, h2, h3, h4, h5, h6 {
+  color: $text-h1; 
+  font-family: $font-lexend;
+  font-weight: $font-weight-regular;
+  line-height: 1.15;
   border-bottom: none;
 }
 
 strong {
-  font-family: $font-gsn-medium;
+  font-family: $font-lexend;
+  font-weight: $font-weight-bold;
   color: $text-h2;
-}
-
-p {
-  padding-bottom: 0.25rem;
-}
-
-.p135-font {
-  font-family: $font-gsn-book;
-  font-size: 1.35rem;
-  color: $text-h2;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-.p135-tight-font {
-  font-family: $font-gsn-book;
-  font-size: 1.5rem;
-  color: $text-h2;
-  line-height: 0.95;
-  margin: 0 !important;
 }
 
 // colors
 .seastar {color: $seastar}
 .dark {color: $dark}
 
-// Page and background colors
-// Required colors: 
-//  $primary
-//  $light
-//  $body-bg: page background
+.special-divider {
+  width: 10%;
+  height: 3px;
+  background-color: $teal-4;
+  border: none;
+  margin: 3rem 0;
+}
 
+
+.highlight-offset {
+  background: linear-gradient(to top, $teal-3 40%, transparent 40%);
+  display: inline-block;
+  padding: 0 0.25em; /* space to the left & right */
+  margin: 0 -0.25em; /* pull the text back so spacing stays natural */
+}
+
+.highlight-offset-2 {
+  background: linear-gradient(to top, $teal-4 40%, transparent 40%);
+  display: inline-block;
+  padding: 0 0.25em; /* space to the left & right */
+  margin: 0 -0.25em; /* pull the text back so spacing stays natural */
+}
+
+.littleheader {
+  text-transform: uppercase;
+  color: $orange-1;
+  font-family: $font-lexend;
+  font-weight: $font-weight-regular;
+  font-size: 1rem;
+  letter-spacing: 0.03rem;
+}
+
+
+// Page and background colors
 // Default styles (for primary pages)
 body {
     background-color: $body-bg;  
 }
 .navbar {
     background-color: $body-bg;  
-    .navbar-brand, .navbar-nav .nav-link {
-        color: $primary; // Or your default navbar text color
+    .navbar-brand, 
+    .navbar-nav 
+    .nav-link {
+        color: $primary;
     }
 }
 .page-footer, .nav-footer {
@@ -123,7 +142,9 @@ body.light-page {
     background-color: $light; 
     .navbar {
         background-color: $light;
-        .navbar-brand, .navbar-nav .nav-link {
+        .navbar-brand, 
+        .navbar-nav 
+        .nav-link {
             color: $primary; // Use a contrasting color
         }
     }
@@ -169,7 +190,9 @@ body.light-page {
 body.secondary-page {
   .navbar { //Target the navbar directly
       background-color: $light;
-      .navbar-brand, .navbar-nav .nav-link {
+      .navbar-brand, 
+      .navbar-nav 
+      .nav-link {
         color: $primary; // Example: white text for contrast
     }
   }
@@ -188,7 +211,7 @@ body.secondary-page {
 
 // For cards on website
 .card-light {
-  background-color: $light;
+  background-color: $body-bg;
   border: none;
   //border-radius: 9px; 
   padding: 0px 1rem 0px 1rem !important;
@@ -207,16 +230,15 @@ body.secondary-page {
   text-align: center; /* Center-align text */
 }
 .card-contact {
-    background-color: $orange-4;
-    color: $text-body; 
-    letter-spacing: 0.1em;
+    background-color: $yellow-4;
+    color: $yellow-1; 
+    letter-spacing: 0.01rem;
     padding: 0.8rem 1.6rem 0.8rem 1.6rem !important;
     margin: 0;
-    border-radius: 9px; 
+    border-radius: 40px; 
     display: inline-block;
     text-decoration: none;  
-    font-size: 1.35rem;
-    font-family: $font-gsn-cn-semibold;
+    font-size: 1rem;
     cursor: pointer;
 }
 

@@ -5,13 +5,24 @@
 // Monospace: Inconsolata
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
 
+// Sans serif: Lexend 
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+// Define variable fonts
+// Sans serif: Lexend 
+@font-face {
+  font-family: 'Lexend 200';
+  src: url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+  font-weight: 200;
+  font-style: normal;
+}
+
 // Load local fonts
-// Sans serif: Gill Sans Nova
+// Sans serif: Gill Sans Nova 
 @font-face {
   font-family: 'Gill Sans Nova Light';
   src: url('assets/fonts/GillSansNova/GillSansNova_Light.woff2') format('woff2'),
        url('assets/fonts/GillSansNova/GillSansNova_Light.woff') format('woff');
-  //font-weight: 300;
   font-style: normal;
 }
 @font-face {
@@ -208,6 +219,8 @@ $font-jn-black: 'Joanna Nova Black', serif !default;
 $font-jn-ultrablack: 'Joanna Nova UltraBlack', serif !default;
 
 $font-inconsolata: "Inconsolata";
+$font-lexend: 'Lexend', sans-serif;
+
 
 $font-amatic-regular: "Amatic Regular";
 $font-amatic-bold: "Amatic Bold";
@@ -219,7 +232,8 @@ $font-windsor-elongated: "Windsor Elongated";
 $font-windsor-cn-extrabold: "Windsor Cn ExtraBold";
 
 // Define font family and weight variables
-$font-family-sans-serif: $font-gsn-light, sans-serif !default;
+$font-family-sans-serif: $font-lexend, !default;
+// $font-family-sans-serif: $font-gsn-light, sans-serif !default;
 $font-family-serif: $font-jn-book, serif !default;
 
 $font-family-monospace: $font-inconsolata, monospace !default;
@@ -232,7 +246,6 @@ $default-code-font-width: $default-monospace-font-width;
 
 /*-- scss:rules --*/
 // For actual CSS rules, including global selectors (pre, code, etc.) and custom classes
-
 // Global monospace elements
 pre, code, kbd, samp {
   font-family: $font-family-monospace;
@@ -240,3 +253,5 @@ pre, code, kbd, samp {
   font-variation-settings: "wdth" $default-monospace-font-width;
   font-optical-sizing: auto;
 }
+
+
