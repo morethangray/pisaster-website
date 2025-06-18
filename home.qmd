@@ -41,4 +41,4 @@ My clients appreciate my collaborative approach -- I explain results in plain la
 ## Let's work together
 Have questions about your data or a potential project? Let's connect.
 
-<a class="card-contact" href="mailto:hello@pisaster.com?subject=Website%20inquiry">Get in touch<i class="fa-regular fa-envelope fa-xl" style="color: #e4b568; margin-left: 0.65rem;"></i></a>
+<a class="button-yellow" href="mailto:hello@pisaster.com?subject=Website%20inquiry">Get in touch<i class="fa-regular fa-envelope fa-xl" style="color: #e4b568; margin-left: 0.65rem;"></i></a>

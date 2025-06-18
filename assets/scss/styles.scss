@@ -157,24 +157,6 @@ strong {
   @include button-link($teal-1, $teal-4, $teal-2);
 }
   
-.card-contact {
-  background-color: $yellow-1;
-  color: $yellow-4;
-  letter-spacing: 0.01rem;
-  padding: 0.8rem 1.6rem;
-  margin: 0;
-  border-radius: 40px;
-  display: inline-block;
-  text-decoration: none;
-  font-size: 1rem;
-  cursor: pointer;
-  transition: all 0.3s ease; // Added a subtle transition
-
-  &:hover {
-    background-color: $yellow-2;
-    color: $yellow-4;
-  }
-}
 
 //== Page Structure (Navbar, Footer)
 .navbar {
