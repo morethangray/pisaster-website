@@ -1,47 +1,53 @@
 # Translating ecological data into [conservation action]{.highlight-offset-alt}
 
-We provide quantitative support that turns ecological data into actionable insights for conservation organizations. From wildlife monitoring and corridor mapping to data management, statistical analysis, and compelling visualizations, Pisaster enables you to focus on protecting biodiversity.
-
-::: special-divider
-:::
-
-## Mission
-
-Pisaster empowers conservation organizations to take action with their ecological data. With expertise in wildlife monitoring, landscape connectivity, and advanced statistical analysis, we provide the clear, actionable insights needed to advance their mission to protect biodiversity and ecosystem resilience.
+We provide quantitative support that turns ecological data into clear, actionable insights for conservation organizations. Our expertise in wildlife analysis, landscape mapping, and statistical design means you can spend less time wrangling data and more time protecting biodiversity.
 
 ::: special-divider
 :::
 
 ## What we do
 
-We work with you to turn your wildlife monitoring and ecological data into clear, actionable insights.
+We help you tackle your data challenges — from analyzing camera trap footage and mapping corridors to designing studies and visualizing results. Our approach pairs statistical expertise with a practical understanding of field-based conservation work.
 
-We help conservation organizations tackle their data challenges, whether it's designing wildlife monitoring plans, analyzing camera trap data, mapping connectivity corridors, or creating clear visualizations that tell their story. Our approach combines statistical expertise with a deep appreciation for the practical realities of conservation work. 
+If ecological data is slowing you down, we can help.
 
-If ecological data is slowing you down, we're here to help.
+Services include:
 
--   Analyze wildlife data
--   Map resilient landscapes
--   Streamline data workflows
--   Research design & statistics
--   Visualize your impact
+-   Wildlife data analysis
+-   Mapping resilient landscapes / Landscape connectivity mapping
+-   Streamlining data workflows / Data management and workflows
+-   Research design & statistics / Statistical consulting
+-   Data visualization
 -   Scientific communication
 
-::: special-divider
-:::
+From analyzing camera trap footage to mapping resilient landscapes and creating compelling visualizations, we help you tackle your most pressing data challenges. If your data is slowing you down, we're here to help.
 
-## Who we are 
-
-With 15 years of experience in ecological data analysis, my approach combines combines rigorous statistics with a practical understanding of conservation work.
-
-What sets my work apart is my ability to make complex scientific concepts accessible. I explain things in plain language and create clear visuals so you always understand what the results mean and why they matter. My clients appreciate that I bring both statistical rigor and a collaborative, approachable style to every project.
-
-My focus is on taking the stress out of the scientific process so conservation organizations can concentrate on what they do best. Whether you need help with a specific analysis or ongoing statistical support, I'm here to make sure your data works as hard as you do for conservation.
-
+[Learn more about our services ->]{#services}
 
 ::: special-divider
 :::
 
-## Let's collaborate
+## Meet your quant
+
+Hi, I’m Morgan Gray, a quantitative ecologist with 15 years of experience turning messy, complex ecological data into clear, actionable results. I combine statistical rigor with plain-language communication and a collaborative, approachable style.
+
+I’m here to take the stress out of ecological data work so you can focus on conservation.
+
+Hi, I’m Morgan Gray. With 15 years of experience in ecological data analysis, I make complex statistics accessible through clear explanations and practical insights.
+
+My clients appreciate my collaborative approach -- I explain results in plain language so you always understand what the data means and why it matters. My goal is to take the stress out of data analysis so you can focus on conservation.
+
+Pisaster was founded by Morgan Gray, a quantitative ecologist with 15 years of experience helping conservation groups succeed. We combine rigorous statistics with a collaborative, approachable style to every project.
+
+[Meet Morgan ->]{#bio} 
+
+::: special-divider
+:::
+
+## Let's work together
+Ready to put your ecological data to work? Let's connect.
+
+Have questions about your data or a potential project? Let's connect and discuss how we can help you achieve your conservation goals.
+
 
 <a class="card-contact" href="mailto:hello@pisaster.com?subject=Website%20inquiry">Get in touch<i class="fa-regular fa-envelope fa-xl" style="color: #e4b568; margin-left: 0.65rem;"></i></a>

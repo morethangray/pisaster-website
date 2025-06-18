@@ -5,31 +5,58 @@ format:
     body-classes: light-page
 ---
 
-<!-- ## Analyze wildlife data {#analyze-wildlife-data} -->
+# Services {#sec-services}
 
-## Wildlife data analysis {#analyze-wildlife-data}
+We provide a focused set of services to help conservation organizations transform their data into clear, actionable insights.
 
--   Understand population trends, habitat use, and species distribution from your monitoring data
--   Design effective monitoring programs and create compelling visualizations to communicate your findings
+## Wildlife data analysis {#analysis}
 
-### Map resilient landscapes {#map-resilient-landscapes}
+Go beyond raw numbers to understand the story your data is telling. We can help you design effective monitoring programs and analyze the results.
 
--   Identify climate-resilient wildlife corridors using spatial analysis and connectivity modeling
--   Inform conservation planning and adaptation strategies that ensure long-term ecosystem health
+-   Analyze population trends, habitat use, and species distribution
+-   Assess the effectiveness of conservation interventions
+-   Create compelling reports and figures to communicate your findings
+-   Analyze monitoring data to understand population trends, habitat use, and species distribution
+-   Design effective monitoring programs and create clear, informative visualizations
 
-### Streamline data workflows {#streamline-data-workflows}
+## Mapping resilient landscapes {#mapping}
 
--   Clean, organize, and manage your ecological data efficiently
--   Develop custom, reproducible workflows for analysis and reporting
+## Landscape & spatial analysis {#mapping}
 
-### Research design & statistics {#research-design-statistics}
+We use spatial analysis and connectivity modeling to inform conservation planning and landscape-scale strategies.
 
--   Provide statistical design, analysis, and consulting
+-   Identify and prioritize climate-resilient wildlife corridors
+-   Map habitat quality and landscape connectivity
+-   Analyze land-use change and its impact on biodiversity
 
-### Visualize your impact {#visualize-your-impact}
+## Data & statistical support {#stats}
 
--   Communicate complex ecological data clearly and effectively with compelling maps, infographics, and figures
+Build a solid foundation for your research with robust data practices and statistical design.
 
-### Scientific communication {#scientific-communication}
+-   **Streamline data workflows:** We'll help you clean, organize, and manage your data efficiently by developing custom, reproducible workflows.
+-   **Research design:** We provide expert guidance on study design and statistical planning to ensure you collect the right data to answer your questions.
+-   **Statistical analysis:** We offer comprehensive analysis and consulting for a wide range of ecological data types.
 
--   Create presentations and reports tailored for diverse audiences, from technical experts to the general public
+## Scientific communication
+
+Communicate your work clearly and effectively to the audiences that matter most, from technical experts to donors and the general public.
+
+-   **Visualize your impact:** We create compelling maps, infographics, and figures that bring your data to life.
+-   **Reports & presentations:** We develop materials tailored for diverse audiences, ensuring your message is heard and understood.
+
+## Streamlining data workflows {#workflows}
+
+-   Clean, organize, and manage ecological datasets
+-   Build custom, reproducible workflows for analysis and reporting
+
+## Research design & statistics {#stats}
+
+-   Provide study design, statistical consulting, and advanced data analysis
+
+## Data visualization {#dataviz}
+
+-   Create clear, compelling maps, infographics, and figures for technical and public audiences
+
+## Scientific communication {#scicomm}
+
+-   Develop reports, presentations, and publications tailored to your audience

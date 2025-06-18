@@ -1,12 +1,12 @@
 # Translating ecological data into [conservation action]{.highlight-offset-alt}
 
-Pisaster provides quantitative support that turns ecological data into actionable insights for conservation organizations. From wildlife monitoring and corridor mapping to data management, statistical analysis, and compelling visualizations, we enable you to focus on protecting biodiversity.
+Pisaster provides quantitative support that turns ecological data into clear, actionable insights for conservation organizations. Our expertise in wildlife analysis, landscape mapping, and statistical design means you can spend less time wrangling data and more time protecting biodiversity.
 
 ::: special-divider
 :::
 
 ## Website coming soon!
 
-Have questions about your ecological data or conservation project? Let's connect.
+Have questions about your data or a potential project? Let's connect.
 
 <a class="card-contact" href="mailto:hello@pisaster.com?subject=Website%20inquiry">Get in touch<i class="fa-regular fa-envelope fa-xl" style="color: #e4b568; margin-left: 0.65rem;"></i></a>

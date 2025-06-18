@@ -26,9 +26,7 @@ format:
   html:
     theme: 
       - flatly
-      - assets/scss/fonts.scss
-      - assets/scss/webpage.scss
-      - assets/scss/social.scss    
+      - assets/scss/styles.scss
     toc: false
     fontawesome: true
 

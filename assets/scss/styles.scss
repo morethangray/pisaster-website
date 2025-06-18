@@ -1,0 +1,187 @@
+// IMPROVEMENT: Moved @import to the top of the file for standard practice.
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+/*-- scss:defaults --*/
+
+//== Colors
+// Grays & Text
+$winslow-0:   white !default;
+$winslow-1:   #f7f6f3 !default; // light background for secondary pages
+$text-body:   #77746F !default;
+$text-h1:     #57534C !default;
+$text-muted:  #9a9894 !default; // Footer text
+
+// Brand & Accent Colors
+$yellow-4:    #e4b568 !default;
+$yellow-3:    #eaca95 !default;
+$yellow-2:    #F7E9D2 !default;
+$yellow-1:    #fbf4e8 !default;
+$orange-4:    #DC8D5D !default;
+$orange-3:    #e3a47d !default;
+$orange-2:    #f5ddce !default;
+$orange-1:    #fcf4ef !default;
+$teal-5:      #046873 !default;
+$teal-4:      #0595a5 !default;
+$teal-3:      #69bfc9 !default;
+$teal-2:      #b4dfe4 !default;
+$teal-1:      #edf7f8 !default;
+
+//== Bootstrap Variable Overrides
+$primary:     $text-body !default;
+$secondary:   $text-body !default;
+$light:       $winslow-1 !default;
+$dark:        $text-h1 !default;
+$body-bg:     $winslow-0 !default;
+$body-color:  $primary !default;
+$link-color:  $primary !default;
+
+//== Navbar
+$navbar-bg:   $body-bg !default;
+$navbar-fg:   $body-color !default;
+$navbar-hl:   $teal-4 !default; // highlight color when hover over navbar links
+
+//== Fonts
+// Define font variables
+$font-lexend: 'Lexend', sans-serif;
+
+// Define font family and weight variables
+$font-family-sans-serif: $font-lexend !default;
+$font-weight-light:    200;
+$font-weight-regular:  300;
+$font-weight-medium:   400;
+$font-weight-bold:     700;
+
+// Define font sizes
+$font-size-base: 1rem;
+$h1-font-size:   $font-size-base * 2.5  !default;
+$h2-font-size:   $font-size-base * 1.75 !default;
+$h3-font-size:   $font-size-base * 1.4  !default;
+$h4-font-size:   $font-size-base * 1.15 !default;
+$h5-font-size:   $font-size-base * 1.05 !default;
+$h6-font-size:   $font-size-base !default;
+$link-font-size: $font-size-base * 0.8  !default;
+
+
+/*-- scss:rules --*/
+
+//== General Body & Typography
+body {
+  background-color: $body-bg;
+  font-family: $font-lexend;
+  font-weight: $font-weight-regular;
+  line-height: 1.65;
+  font-size: 0.875rem;
+  padding-bottom: 0.5rem;
+}
+
+p {
+  padding-bottom: 0.5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $text-h1;
+  font-family: $font-lexend;
+  font-weight: $font-weight-regular;
+  line-height: 1.15;
+  border-bottom: none; // Explicitly overriding Quarto defaults
+}
+
+h1 {
+  padding-bottom: 1rem;
+}
+
+strong {
+  font-family: $font-lexend;
+  font-weight: $font-weight-medium;
+  color: $text-h1;
+}
+
+//== Custom Components & Classes
+.special-divider {
+  width: 7%;
+  height: 4px;
+  background-color: $teal-1;
+  border: none;
+  margin: 2rem 0;
+}
+
+@mixin highlight-offset($highlight-color, $text-color, $font-weight) {
+  background: linear-gradient(to top, $highlight-color 40%, transparent 40%);
+  font-family: $font-lexend;
+  font-weight: $font-weight;
+  display: inline;
+  color: $text-color;
+  padding: 0 0.25em;
+  margin: 0 -0.25em;
+}
+
+.highlight-offset {
+  @include highlight-offset($teal-2, $text-h1, $font-weight-medium);
+}
+.highlight-offset-alt {
+  @include highlight-offset($teal-1, $teal-4, $font-weight-medium);
+}
+
+.littleheader {
+  text-transform: uppercase;
+  color: $orange-4;
+  font-family: $font-lexend;
+  font-weight: $font-weight-regular;
+  font-size: 1rem;
+  letter-spacing: 0.03rem;
+}
+
+.card-contact {
+  background-color: $yellow-1;
+  color: $yellow-4;
+  letter-spacing: 0.01rem;
+  padding: 0.8rem 1.6rem;
+  margin: 0;
+  border-radius: 40px;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease; // Added a subtle transition
+
+  &:hover {
+    background-color: $yellow-2;
+    color: $yellow-4;
+  }
+}
+
+//== Page Structure (Navbar, Footer)
+.navbar {
+  background-color: $body-bg;
+
+  .navbar-brand img {
+    max-height: 30px;
+    width: auto;
+  }
+}
+
+.page-footer,
+.nav-footer {
+  background-color: $body-bg;
+  color: $text-muted;
+  padding: 1rem 0;
+}
+
+//== Social Icons
+.social-icons {
+  display: flex;
+  margin-bottom: 1rem;
+  gap: 0.75rem; 
+}
+
+.social-icons a {
+  color: $secondary;
+  text-decoration: none;
+  transition: color 0.3s;
+  padding: 0.5rem; // Simplified padding for a larger click area
+}
+
+.social-icons a:hover {
+  color: $primary;
+}
+
