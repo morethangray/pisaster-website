@@ -4,7 +4,7 @@ We provide a focused set of services to help conservation organizations transfor
 
 We specialize in wildlife monitoring analysis and connectivity mapping, but work on any project involving ecological data. From cleaning datasets to creating automated workflows, from study design to compelling visualizations—if data is slowing down your conservation work, Pisaster can help.
 
-### Wildlife data analysis {#analysis}
+### [Wildlife data analysis]{.highlight-offset-teal} {#analysis}
 
 Go beyond raw numbers to understand the story your data is telling. We can help you design effective monitoring programs and analyze the results.
 
@@ -14,7 +14,7 @@ Go beyond raw numbers to understand the story your data is telling. We can help 
 -   Analyze monitoring data to understand population trends, habitat use, and species distribution
 -   Design effective monitoring programs and create clear, informative visualizations
 
-### Mapping resilient landscapes /  Landscape & spatial analysis {#mapping}
+### [Mapping resilient landscapes /  Landscape & spatial analysis]{.highlight-offset-teal} {#mapping}
 
 We use spatial analysis and connectivity modeling to inform conservation planning and landscape-scale strategies.
 
