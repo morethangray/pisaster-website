@@ -2,6 +2,8 @@
 
 Pisaster provides quantitative support that turns ecological data into clear, actionable insights for conservation organizations. Our expertise in wildlife analysis, landscape mapping, and statistical design means you can spend less time wrangling data and more time protecting biodiversity.
 
+If ecological data is slowing you down, we can help.
+
 ::: special-divider
 :::
 
