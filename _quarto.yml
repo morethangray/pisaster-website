@@ -3,7 +3,7 @@ project:
 
 website:
   title: "Pisaster"
-  favicon: assets/images/favicon.png
+  favicon: assets/images/pisaster-favicon.png
   
   # start of the navigation bar at the top of the website
   navbar:
@@ -11,7 +11,7 @@ website:
     pinned: true
     search: false
     collapse-below: md
-    logo: assets/images/logo.png 
+    logo: assets/images/pisaster-logo.png 
     right:
     - href: "mailto:hello@pisaster.com?subject=Website%20inquiry"
       text: "hello@pisaster.com"
