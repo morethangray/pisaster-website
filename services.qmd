@@ -1,15 +1,10 @@
----
-toc: false
-format:
-  html:
-    body-classes: light-page
----
-
-# Services {#sec-services}
+## Services {#sec-services}
 
 We provide a focused set of services to help conservation organizations transform their data into clear, actionable insights.
 
-## Wildlife data analysis {#analysis}
+We specialize in wildlife monitoring analysis and connectivity mapping, but work on any project involving ecological data. From cleaning datasets to creating automated workflows, from study design to compelling visualizations—if data is slowing down your conservation work, Pisaster can help.
+
+### Wildlife data analysis {#analysis}
 
 Go beyond raw numbers to understand the story your data is telling. We can help you design effective monitoring programs and analyze the results.
 
@@ -19,9 +14,7 @@ Go beyond raw numbers to understand the story your data is telling. We can help 
 -   Analyze monitoring data to understand population trends, habitat use, and species distribution
 -   Design effective monitoring programs and create clear, informative visualizations
 
-## Mapping resilient landscapes {#mapping}
-
-## Landscape & spatial analysis {#mapping}
+### Mapping resilient landscapes /  Landscape & spatial analysis {#mapping}
 
 We use spatial analysis and connectivity modeling to inform conservation planning and landscape-scale strategies.
 
@@ -29,34 +22,34 @@ We use spatial analysis and connectivity modeling to inform conservation plannin
 -   Map habitat quality and landscape connectivity
 -   Analyze land-use change and its impact on biodiversity
 
-## Data & statistical support {#stats}
+### Streamlining data workflows {#workflows}
+
+-   Clean, organize, and manage ecological datasets
+-   Build custom, reproducible workflows for analysis and reporting
+
+### Statistical support & research design {#stats}
 
 Build a solid foundation for your research with robust data practices and statistical design.
 
 -   **Streamline data workflows:** We'll help you clean, organize, and manage your data efficiently by developing custom, reproducible workflows.
 -   **Research design:** We provide expert guidance on study design and statistical planning to ensure you collect the right data to answer your questions.
+-   Provide study design, statistical consulting, and advanced data analysis
 -   **Statistical analysis:** We offer comprehensive analysis and consulting for a wide range of ecological data types.
 
-## Scientific communication
+### Data visualization {#dataviz}
+
+-   Create clear, compelling maps, infographics, and figures for technical and public audiences
+
+
+### Scientific communication {#scicomm}
 
 Communicate your work clearly and effectively to the audiences that matter most, from technical experts to donors and the general public.
 
 -   **Visualize your impact:** We create compelling maps, infographics, and figures that bring your data to life.
 -   **Reports & presentations:** We develop materials tailored for diverse audiences, ensuring your message is heard and understood.
-
-## Streamlining data workflows {#workflows}
-
--   Clean, organize, and manage ecological datasets
--   Build custom, reproducible workflows for analysis and reporting
-
-## Research design & statistics {#stats}
-
--   Provide study design, statistical consulting, and advanced data analysis
-
-## Data visualization {#dataviz}
-
--   Create clear, compelling maps, infographics, and figures for technical and public audiences
-
-## Scientific communication {#scicomm}
-
 -   Develop reports, presentations, and publications tailored to your audience
+
+
+
+
+

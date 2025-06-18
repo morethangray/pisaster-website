@@ -1,16 +1,8 @@
-// IMPROVEMENT: Moved @import to the top of the file for standard practice.
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
 
 /*-- scss:defaults --*/
 
 //== Colors
-// Grays & Text
-$winslow-0:   white !default;
-$winslow-1:   #f7f6f3 !default; // light background for secondary pages
-$text-body:   #77746F !default;
-$text-h1:     #57534C !default;
-$text-muted:  #9a9894 !default; // Footer text
-
 // Brand & Accent Colors
 $yellow-4:    #e4b568 !default;
 $yellow-3:    #eaca95 !default;
@@ -20,15 +12,29 @@ $orange-4:    #DC8D5D !default;
 $orange-3:    #e3a47d !default;
 $orange-2:    #f5ddce !default;
 $orange-1:    #fcf4ef !default;
-$teal-5:      #046873 !default;
-$teal-4:      #0595a5 !default;
-$teal-3:      #69bfc9 !default;
-$teal-2:      #b4dfe4 !default;
+$teal-6:      #046873 !default;
+$teal-5:      #0595a5 !default;
+$teal-4:      #69bfc9 !default;
+$teal-3:      #b4dfe4 !default;
+$teal-2:      #CDEAED !default;
 $teal-1:      #edf7f8 !default;
+$brown-5:     #68645E !default;
+$brown-4:     #9a9894 !default;
+$brown-3:     #aba9a6 !default;
+$brown-2:     #CDCBC9 !default;
+$brown-1:     #EEEEED !default;
+
+// Grays & Text
+$winslow-0:   white !default;
+$winslow-1:   #f7f6f3 !default; // light background for secondary pages
+$text-body:   #77746F !default;
+$text-h1:     #57534C !default;
+$text-muted:  $brown-3 !default; // Footer text
+
 
 //== Bootstrap Variable Overrides
 $primary:     $text-body !default;
-$secondary:   $text-body !default;
+$secondary:   $brown-3 !default;
 $light:       $winslow-1 !default;
 $dark:        $text-h1 !default;
 $body-bg:     $winslow-0 !default;
@@ -38,7 +44,7 @@ $link-color:  $primary !default;
 //== Navbar
 $navbar-bg:   $body-bg !default;
 $navbar-fg:   $body-color !default;
-$navbar-hl:   $teal-4 !default; // highlight color when hover over navbar links
+$navbar-hl:   $teal-5 !default; // highlight color when hover over navbar links
 
 //== Fonts
 // Define font variables
@@ -47,8 +53,8 @@ $font-lexend: 'Lexend', sans-serif;
 // Define font family and weight variables
 $font-family-sans-serif: $font-lexend !default;
 $font-weight-light:    200;
-$font-weight-regular:  300;
-$font-weight-medium:   400;
+$font-weight-regular:  350;
+$font-weight-medium:   500;
 $font-weight-bold:     700;
 
 // Define font sizes
@@ -68,14 +74,14 @@ $link-font-size: $font-size-base * 0.8  !default;
 body {
   background-color: $body-bg;
   font-family: $font-lexend;
-  font-weight: $font-weight-medium;
+  font-weight: $font-weight-regular;
   line-height: 1.65;
   font-size: 0.9rem;
-  padding-bottom: 0.5rem;
+  padding-bottom: 0.25rem;
 }
 
 p {
-  padding-bottom: 0.5rem;
+  padding-bottom: 0.25rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -95,6 +101,7 @@ strong {
   font-weight: $font-weight-medium;
   color: $text-h1;
 }
+
 
 //== Custom Components & Classes
 .special-divider {
@@ -116,10 +123,16 @@ strong {
 }
 
 .highlight-offset {
-  @include highlight-offset($teal-2, $text-h1, $font-weight-medium);
+  @include highlight-offset($teal-1, $teal-5, $font-weight-medium);
 }
-.highlight-offset-alt {
-  @include highlight-offset($teal-1, $teal-4, $font-weight-medium);
+.highlight-offset-teal {
+  @include highlight-offset($teal-2, $text-h1, $font-weight-regular);
+}
+.highlight-offset-yellow {
+  @include highlight-offset($yellow-2, $text-h1, $font-weight-regular);
+}
+.highlight-offset-orange {
+  @include highlight-offset($orange-2, $text-h1, $font-weight-regular);
 }
 
 .littleheader {
@@ -138,12 +151,19 @@ strong {
   padding: 0.8rem 1.6rem;
   margin: 0;
   border-radius: 40px;
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
   text-decoration: none;
   font-size: 1rem;
   cursor: pointer;
-  transition: all 0.3s ease; // Added a subtle transition
-
+  transition: all 0.3s ease; // subtle transition
+  
+  i {
+    font-size: 1.5rem;
+    color: $text-color;
+  }
+  
   &:hover {
     background-color: $hover-color;
     color: $text-color;
@@ -154,9 +174,32 @@ strong {
   @include button-link($yellow-1, $yellow-4, $yellow-2);
 }
 .button-teal {
-  @include button-link($teal-1, $teal-4, $teal-2);
+  @include button-link($teal-1, $teal-5, $teal-3);
 }
-  
+.button-orange {
+  @include button-link($orange-1, $orange-4, $orange-2);
+}
+.button-brown {
+  @include button-link($brown-1, $brown-5, $brown-2);
+}
+
+
+//== Social Icons
+.social-icons {
+  display: flex;
+  margin-bottom: 1rem;
+  gap: 0.75rem; 
+}
+.social-icons a {
+  color: $secondary;
+  text-decoration: none;
+  transition: color 0.3s;
+  padding: 0.5rem; // Simplified padding for a larger click area
+}
+.social-icons a:hover {
+  color: $primary;
+}
+
 
 //== Page Structure (Navbar, Footer)
 .navbar {
@@ -173,23 +216,5 @@ strong {
   background-color: $body-bg;
   color: $text-muted;
   padding: 1rem 0;
-}
-
-//== Social Icons
-.social-icons {
-  display: flex;
-  margin-bottom: 1rem;
-  gap: 0.75rem; 
-}
-
-.social-icons a {
-  color: $secondary;
-  text-decoration: none;
-  transition: color 0.3s;
-  padding: 0.5rem; // Simplified padding for a larger click area
-}
-
-.social-icons a:hover {
-  color: $primary;
 }
 

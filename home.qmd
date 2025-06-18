@@ -1,26 +1,25 @@
-# Translating ecological data into [conservation action]{.highlight-offset-alt}
+# Translating ecological data into [conservation action]{.highlight-offset}
 
 We provide quantitative support that turns ecological data into clear, actionable insights for conservation organizations. Our expertise in wildlife analysis, landscape mapping, and statistical design means you can spend less time wrangling data and more time protecting biodiversity.
+
+[If ecological data is slowing you down, we can help.]{.highlight-offset-yellow}
 
 ::: special-divider
 :::
 
 ## What we do
 
-We help you tackle your data challenges — from analyzing camera trap footage and mapping corridors to designing studies and visualizing results. Our approach pairs statistical expertise with a practical understanding of field-based conservation work.
+From analyzing camera trap footage and mapping corridors to designing studies and visualizing results, we use ecological data to inform and support conservation. Our approach pairs statistical expertise with a practical understanding of field-based conservation work.
 
-If ecological data is slowing you down, we can help.
 
 Services include:
 
 -   Wildlife data analysis
--   Mapping resilient landscapes / Landscape connectivity mapping
--   Streamlining data workflows / Data management and workflows
--   Research design & statistics / Statistical consulting
+-   Mapping resilient landscapes
+-   Streamlining data workflows
+-   Statistical support & research design
 -   Data visualization
 -   Scientific communication
-
-From analyzing camera trap footage to mapping resilient landscapes and creating compelling visualizations, we help you tackle your most pressing data challenges. If ecological data is slowing you down, we can help.
 
 <a class="button-teal">Learn more about our services</a>
 
@@ -29,9 +28,7 @@ From analyzing camera trap footage to mapping resilient landscapes and creating 
 
 ## Meet your quant
 
-Hi, I’m Morgan Gray. With 15 years of experience in ecological data analysis, I make complex statistics accessible through clear explanations and practical insights.
-
-My clients appreciate my collaborative approach -- I explain results in plain language so you always understand what the data means and why it matters. My goal is to take the stress out of data analysis so you can focus on conservation.
+Hi, I’m Morgan Gray. With 15 years of experience in ecological data analysis, my work focuses on making complex statistics accessible through clear explanations and practical insights.
 
 <a class="button-teal">Meet Morgan</a>
 
@@ -41,4 +38,5 @@ My clients appreciate my collaborative approach -- I explain results in plain la
 ## Let's work together
 Have questions about your data or a potential project? Let's connect.
 
-<a class="button-yellow" href="mailto:hello@pisaster.com?subject=Website%20inquiry">Get in touch<i class="fa-regular fa-envelope fa-xl" style="color: #e4b568; margin-left: 0.65rem;"></i></a>
+<a class="button-yellow" href="mailto:hello@pisaster.com?subject=Website%20inquiry">Get in touch<i class="fa-regular fa-envelope fa-xl"></i>
+</a>

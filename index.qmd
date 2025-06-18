@@ -1,8 +1,8 @@
-# Translating ecological data into [conservation action]{.highlight-offset-alt}
+# Translating ecological data into [conservation action]{.highlight-offset}
 
 Pisaster provides quantitative support that turns ecological data into clear, actionable insights for conservation organizations. Our expertise in wildlife analysis, landscape mapping, and statistical design means you can spend less time wrangling data and more time protecting biodiversity.
 
-If ecological data is slowing you down, we can help.
+[If ecological data is slowing you down, we can help.]{.highlight-offset-yellow}
 
 ::: special-divider
 :::
@@ -11,4 +11,5 @@ If ecological data is slowing you down, we can help.
 
 Have questions about your data or a potential project? Let's connect.
 
-<a class="button-yellow" href="mailto:hello@pisaster.com?subject=Website%20inquiry">Get in touch<i class="fa-regular fa-envelope fa-xl" style="color: #e4b568; margin-left: 0.65rem;"></i></a>
+<a class="button-yellow" href="mailto:hello@pisaster.com?subject=Website%20inquiry">Get in touch<i class="fa-regular fa-envelope fa-xl"></i>
+</a>

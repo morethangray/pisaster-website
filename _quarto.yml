@@ -30,5 +30,8 @@ format:
     toc: false
     fontawesome: true
 
-editor: visual
+editor: source
 mainfont: "Lexend"
+
+execute:
+  freeze: auto
