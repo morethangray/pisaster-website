@@ -1,0 +1,97 @@
+---
+format:
+  html:
+    body-classes: default-page
+---
+
+:::: full-width
+::: full-width-content
+# Translating ecological data into [conservation action]{.highlight-offset style="font-weight: 400;color: #0595A5;"}
+
+We provide quantitative support that turns ecological data into actionable insights for conservation organizations. From wildlife monitoring and corridor mapping to data management, statistical analysis, and compelling visualizations, Pisaster enables you to focus on protecting biodiversity.
+
+<a class="card-contact" href="mailto:hello@pisaster.com?subject=Website%20inquiry">CONTACT<i class="fa-regular fa-envelope fa-xl" style="color: #e4b568; margin-left: 0.65rem;"></i></a>
+
+<br>
+:::
+::::
+
+::::::::::::::::::::::: {.full-width .bg-light}
+:::::::::::::::::::::: full-width-content
+## What we do
+
+::::::::::::::::::::: grid
+::::: {.g-col-12 .g-col-md-4}
+:::: {.card-light .card .h-100}
+<a href="services.qmd#analyze-wildlife-data" class="d-block text-decoration-none">
+
+::: {.card-body .d-flex .justify-content-center .align-items-center}
+[Analyze wildlife data]{.p135-tight-font} </a>
+:::
+::::
+:::::
+
+::::: {.g-col-12 .g-col-md-4}
+:::: {.card-light .card .h-100}
+<a href="services.qmd#map-resilient-landscapes" class="d-block text-decoration-none">
+
+::: {.card-body .d-flex .justify-content-center .align-items-center}
+[Map resilient landscapes]{.p135-tight-font} </a>
+:::
+::::
+:::::
+
+::::: {.g-col-12 .g-col-md-4}
+:::: {.card-light .card .h-100}
+<a href="services.qmd#streamline-data-workflows" class="d-block text-decoration-none">
+
+::: {.card-body .d-flex .justify-content-center .align-items-center}
+[Streamline data workflows]{.p135-tight-font} </a>
+:::
+::::
+:::::
+
+::::: {.g-col-12 .g-col-md-4}
+:::: {.card-light .card .h-100}
+<a href="services.qmd#research-design-statistics" class="d-block text-decoration-none">
+
+::: {.card-body .d-flex .justify-content-center .align-items-center}
+[Research design & statistics]{.p135-tight-font} </a>
+:::
+::::
+:::::
+
+::::: {.g-col-12 .g-col-md-4}
+:::: {.card-light .card .h-100}
+<a href="services.qmd#visualize-your-impact" class="d-block text-decoration-none">
+
+::: {.card-body .d-flex .justify-content-center .align-items-center}
+[Visualize your impact]{.p135-tight-font} </a>
+:::
+::::
+:::::
+
+::::: {.g-col-12 .g-col-md-4}
+:::: {.card-light .card .h-100}
+<a href="services.qmd#scientific-communication" class="d-block text-decoration-none">
+
+::: {.card-body .d-flex .justify-content-center .align-items-center}
+[Scientific communication]{.p135-tight-font} </a>
+:::
+::::
+:::::
+:::::::::::::::::::::
+
+<br>
+::::::::::::::::::::::
+:::::::::::::::::::::::
+
+:::: full-width
+::: full-width-content
+## Let's collaborate
+
+Pisaster empowers conservation organizations to take action with their ecological data. With expertise in wildlife monitoring, landscape connectivity, and advanced statistical analysis, we provide the clear, actionable insights needed to advance their mission to protect biodiversity and ecosystem resilience.
+
+<a class="card-contact" href="mailto:hello@pisaster.com?subject=Website%20inquiry">Get in touch<i class="fa-regular fa-envelope fa-xl" style="color: #e4b568; margin-left: 0.65rem;"></i></a>
+:::
+::::

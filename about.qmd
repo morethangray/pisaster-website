@@ -10,7 +10,7 @@ Making ecological data work for conservation isn't just about numbers - it's abo
 
 That's where I come in. I help conservation organizations tackle their data challenges, whether it's designing wildlife monitoring plans, analyzing camera trap data, mapping connectivity corridors, or creating clear visualizations that tell their story. My approach combines statistical expertise with a deep appreciation for the practical realities of conservation work.
 
-I specialize in wildlife monitoring analysis and connectivity mapping, but my skills extend to any project involving ecological data. From cleaning long-term datasets to creating automated workflows, from statistical design to compelling visualizations, **if ecological data is slowing down your conservation work, I'm here to help**.
+I specialize in wildlife monitoring analysis and connectivity mapping, but my skills extend to any project involving ecological data. From cleaning long-term datasets to creating automated workflows, from statistical design to compelling visualizations, [if ecological data is slowing down your conservation work, I'm here to help]{.highlight-offset}.
 
 What sets my work apart is my ability to make complex scientific concepts accessible. I explain things in plain language and create clear visuals so you always understand what the results mean and why they matter. My clients appreciate that I bring both statistical rigor and a collaborative, approachable style to every project.
 

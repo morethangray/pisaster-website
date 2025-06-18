@@ -1,22 +1,47 @@
-# Translating ecological data into [conservation action]{.highlight-offset}
-# Translating ecological data into [conservation action]{.highlight-offset-2 style="color: #3A9194;"}
+# Translating ecological data into [conservation action]{.highlight-offset-alt}
 
 We provide quantitative support that turns ecological data into actionable insights for conservation organizations. From wildlife monitoring and corridor mapping to data management, statistical analysis, and compelling visualizations, Pisaster enables you to focus on protecting biodiversity.
 
-<div class="special-divider"></div>
+::: special-divider
+:::
 
 ## Mission
 
-Pisaster empowers conservation organizations to take action with their ecological data. With expertise in wildlife monitoring, landscape connectivity, and advanced statistical analysis, we provide the clear, actionable insights needed to advance their mission to protect biodiversity and ecosystem resilience. 
+Pisaster empowers conservation organizations to take action with their ecological data. With expertise in wildlife monitoring, landscape connectivity, and advanced statistical analysis, we provide the clear, actionable insights needed to advance their mission to protect biodiversity and ecosystem resilience.
 
-<div class="special-divider"></div>
+::: special-divider
+:::
+
+## What we do
+
+We work with you to turn your wildlife monitoring and ecological data into clear, actionable insights.
+
+We help conservation organizations tackle their data challenges, whether it's designing wildlife monitoring plans, analyzing camera trap data, mapping connectivity corridors, or creating clear visualizations that tell their story. Our approach combines statistical expertise with a deep appreciation for the practical realities of conservation work. 
+
+If ecological data is slowing you down, we're here to help.
+
+-   Analyze wildlife data
+-   Map resilient landscapes
+-   Streamline data workflows
+-   Research design & statistics
+-   Visualize your impact
+-   Scientific communication
+
+::: special-divider
+:::
+
+## Who we are 
+
+With 15 years of experience in ecological data analysis, my approach combines combines rigorous statistics with a practical understanding of conservation work.
+
+What sets my work apart is my ability to make complex scientific concepts accessible. I explain things in plain language and create clear visuals so you always understand what the results mean and why they matter. My clients appreciate that I bring both statistical rigor and a collaborative, approachable style to every project.
+
+My focus is on taking the stress out of the scientific process so conservation organizations can concentrate on what they do best. Whether you need help with a specific analysis or ongoing statistical support, I'm here to make sure your data works as hard as you do for conservation.
+
+
+::: special-divider
+:::
 
 ## Let's collaborate
 
-I turn your wildlife monitoring and ecological data into clear, actionable insights. With 15 years of experience in ecological data analysis, my approach combines combines rigorous statistics with a practical understanding of conservation work.
-
-If ecological data is slowing you down, I'm here to help.
-
-<a class="card-contact" href="mailto:hello@pisaster.com?subject=Website%20inquiry">Get in touch</a>
-
-<div class="special-divider"></div>
+<a class="card-contact" href="mailto:hello@pisaster.com?subject=Website%20inquiry">Get in touch<i class="fa-regular fa-envelope fa-xl" style="color: #e4b568; margin-left: 0.65rem;"></i></a>

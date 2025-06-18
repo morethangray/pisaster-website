@@ -10,20 +10,12 @@ website:
     title: false
     pinned: true
     search: false
+    collapse-below: md
     logo: assets/images/logo.png 
-    
-  # sub-pages
-    # right:
-    #   - text: "Home"
-    #     href: index.qmd
-    #   - text: "Services"
-    #     href: services.qmd
-      # - text: "Reviews"
-      #   href: reviews.qmd
-      # - text: "About"
-      #   href: about.qmd
-      # - text: "Contact"
-      #   href: contact.qmd
+    right:
+    - href: "mailto:hello@pisaster.com?subject=Website%20inquiry"
+      text: "hello@pisaster.com"
+      icon: envelope
 
   page-footer:
     left: | 
@@ -38,6 +30,7 @@ format:
       - assets/scss/webpage.scss
       - assets/scss/social.scss    
     toc: false
+    fontawesome: true
 
 editor: visual
 mainfont: "Lexend"
