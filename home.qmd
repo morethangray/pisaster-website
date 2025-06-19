@@ -1,13 +1,13 @@
 # Translating ecological data into [conservation action]{.highlight-offset}
 
+::: {.intro}
 We help conservation organizations turn ecological data into clear, meaningful insights. Our expertise in wildlife analysis, landscape mapping, and statistical design makes it easier for you to manage your data, understand your results, and focus on protecting biodiversity.
+:::
 
 ::: special-divider
 :::
 
 ## What we do
-
-We help conservation organizations make sense of their ecological data through analysis, mapping, workflow support, and clear communication.
 
 From analyzing camera trap footage and mapping corridors to designing studies and visualizing results, we use ecological data to inform and support conservation. Our approach pairs statistical expertise with a practical understanding of field-based conservation work.
 

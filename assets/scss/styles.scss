@@ -75,8 +75,8 @@ body {
   background-color: $body-bg;
   font-family: $font-lexend;
   font-weight: $font-weight-regular;
-  line-height: 1.55;
   font-size: 0.95rem;
+  line-height: 1.5;
   padding-bottom: 0.25rem;
 }
 
@@ -88,11 +88,14 @@ h1, h2, h3, h4, h5, h6 {
   color: $text-h1;
   font-family: $font-lexend;
   font-weight: $font-weight-regular;
-  line-height: 1.15;
+  line-height: 1.3;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
   border-bottom: none; // Explicitly overriding Quarto defaults
 }
 
 h1 {
+  line-height: 1.15;
   padding-bottom: 1rem;
 }
 
@@ -104,6 +107,14 @@ strong {
 
 
 //== Custom Components & Classes
+.intro {
+  color: $text-h1;
+  font-family: $font-lexend;
+  font-weight: $font-weight-regular;
+  font-size: $h5-font-size;
+  line-height: 1.4;
+}
+
 .special-divider {
   width: 7%;
   height: 4px;
