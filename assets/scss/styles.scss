@@ -53,7 +53,7 @@ $font-lexend: 'Lexend', sans-serif;
 // Define font family and weight variables
 $font-family-sans-serif: $font-lexend !default;
 $font-weight-light:    200;
-$font-weight-regular:  350;
+$font-weight-regular:  300;
 $font-weight-medium:   500;
 $font-weight-bold:     700;
 
@@ -133,6 +133,9 @@ strong {
 }
 .highlight-offset-orange {
   @include highlight-offset($orange-2, $text-h1, $font-weight-regular);
+}
+.highlight-offset-brown {
+  @include highlight-offset($brown-1, $text-h1, $font-weight-regular);
 }
 
 .littleheader {

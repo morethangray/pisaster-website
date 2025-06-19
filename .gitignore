@@ -10,6 +10,7 @@
 /.quarto/
 .quarto
 /_site/
+_site/
 
 # History files
 .Rhistory

@@ -1,8 +1,7 @@
 # Translating ecological data into [conservation action]{.highlight-offset}
 
-Pisaster provides quantitative support that turns ecological data into clear, actionable insights for conservation organizations. Our expertise in wildlife analysis, landscape mapping, and statistical design means you can spend less time wrangling data and more time protecting biodiversity.
+We help conservation organizations turn ecological data into clear, meaningful insights. Our expertise in wildlife analysis, landscape mapping, and statistical design makes it easier for you to manage your data, understand your results, and focus on protecting biodiversity.
 
-[If ecological data is slowing you down, we can help.]{.highlight-offset-yellow}
 
 ::: special-divider
 :::
