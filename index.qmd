@@ -13,4 +13,4 @@ Have questions about your data or a potential project? Let's connect.
 <a class="button-yellow" href="mailto:hello@pisaster.com?subject=Website%20inquiry">Get in touch<i class="fa-regular fa-envelope fa-xl"></i>
 </a>
 
-Check deployment 
+Check deployment push
