@@ -18,8 +18,7 @@ website:
       icon: envelope
 
   page-footer:
-    left: | 
-      {{< fa regular copyright >}} 2025 Pisaster 
+    left: "&#169; 2025 Pisaster"
     border: false
 
 format:
