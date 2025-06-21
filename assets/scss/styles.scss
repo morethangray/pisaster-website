@@ -52,8 +52,8 @@ $font-lexend: 'Lexend', sans-serif;
 
 // Define font family and weight variables
 $font-family-sans-serif: $font-lexend !default;
-$font-weight-light:    200;
-$font-weight-regular:  300;
+$font-weight-light:    300;
+$font-weight-regular:  400;
 $font-weight-medium:   500;
 $font-weight-bold:     700;
 
@@ -120,7 +120,7 @@ strong {
   height: 4px;
   background-color: $teal-1;
   border: none;
-  margin: 2rem 0;
+  margin: 1rem 0;
 }
 
 @mixin highlight-offset($highlight-color, $text-color, $font-weight) {
