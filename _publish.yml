@@ -1,4 +1,4 @@
 - source: project
   netlify:
-    - id: "95e60365-b3d0-4773-8f21-5b2d26b22203"
-      url: "https://pisaster.com"
+    - id: 8c74ed7c-c591-4df8-8678-0c0eb76b2dd1
+      url: https://pisaster-1.netlify.app
