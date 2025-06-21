@@ -2,15 +2,10 @@
 /**/*.DS_Store
 /**/*.Thumbs.db
 
-# My folders
-/z_*/
-/reference/
-
 # Quarto files and rendered folders 
 /.quarto/
 .quarto
 /_site/
-
 
 # History files
 .Rhistory
@@ -39,6 +34,3 @@
 
 # R Environment Variables
 .Renviron
-
-# RStudio Connect folder
-rsconnect/
