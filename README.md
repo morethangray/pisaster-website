@@ -1,6 +1,6 @@
 # Pisaster website
 
-This is the repo for the Pisaster website, [pisaster.com](pisaster.com), which was created with Quarto and deployed via CI/CD with GitHub and Netlify.
+This is the repo for the Pisaster website, which was created with Quarto and deployed with GitHub and Netlify.
 
 ## About Pisaster
 We help conservation organizations turn ecological data into clear, meaningful insights. Our expertise in wildlife analysis, landscape mapping, and statistical design makes it easier for you to manage your data, understand your results, and focus on protecting biodiversity.
