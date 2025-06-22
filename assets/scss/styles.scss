@@ -4,6 +4,7 @@
 
 //== Colors
 // Brand & Accent Colors
+$yellow-5:    #cda35e !default;
 $yellow-4:    #e4b568 !default;
 $yellow-3:    #eaca95 !default;
 $yellow-2:    #F7E9D2 !default;
@@ -27,7 +28,8 @@ $brown-1:     #EEEEED !default;
 // Grays & Text
 $winslow-0:   white !default;
 $winslow-1:   #f7f6f3 !default; // light background for secondary pages
-$text-body:   #77746F !default;
+//$text-body:   #77746F !default;
+$text-body:   $brown-5 !default;
 $text-h1:     #57534C !default;
 $text-muted:  $brown-3 !default; // Footer text
 
@@ -52,8 +54,8 @@ $font-lexend: 'Lexend', sans-serif;
 
 // Define font family and weight variables
 $font-family-sans-serif: $font-lexend !default;
-$font-weight-light:    300;
-$font-weight-regular:  400;
+$font-weight-light:    200;
+$font-weight-regular:  300;
 $font-weight-medium:   500;
 $font-weight-bold:     700;
 
@@ -76,7 +78,7 @@ body {
   font-family: $font-lexend;
   font-weight: $font-weight-regular;
   font-size: 0.95rem;
-  line-height: 1.5;
+  line-height: 1.45;
   padding-bottom: 0.25rem;
 }
 
@@ -185,7 +187,7 @@ strong {
 }
 
 .button-yellow {
-  @include button-link($yellow-1, $yellow-4, $yellow-2);
+  @include button-link($yellow-1, $yellow-5, $yellow-2);
 }
 .button-teal {
   @include button-link($teal-1, $teal-5, $teal-3);

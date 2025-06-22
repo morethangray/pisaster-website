@@ -4,6 +4,9 @@ project:
 website:
   title: "Pisaster"
   favicon: assets/images/pisaster-favicon.png
+  drafts:
+    - home.qmd
+  draft-mode: unlinked
   
   # start of the navigation bar at the top of the website
   navbar:
