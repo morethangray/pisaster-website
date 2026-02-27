@@ -1,0 +1,35 @@
+---
+sidebar: false
+---
+
+### Morgan Gray, PhD {#bio}
+[Principal and Quantitative Ecologist]{.highlight-offset-teal}
+
+Working with ecological data is about more than numbers. It’s about understanding the questions that matter to you, the people protecting our landscapes and wildlife. 
+
+As the Principal of Pisaster, I draw on 15 years of experience in ecological data analysis and time in the nonprofit sector to turn complex data into meaningful conservation outcomes. I understand the challenges organizations face when turning monitoring data into effective decisions. That’s where I can help.
+
+I specialize in terrestrial mammal monitoring analysis and connectivity mapping, but my work extends to any project involving ecological data. Whether it’s cleaning long-term datasets, building reproducible workflows, designing studies, or creating clear, useful visualizations, I’m here to support your work with reliable and innovative analysis.
+
+<!-- Clients value my ability to distill complex science into plain language. I offer thoughtful, collaborative guidance that fosters discovery.  -->
+
+My goal is to make the data side of conservation easier, so you can stay focused on the on-the-ground stewardship you care about most. I'm committed to ensuring your data works as hard as you do for biodiversity protection.
+
+#### Education
+
+PhD in Environmental Science, Policy & Management \| UC Berkeley \n\
+BA in Integrative Biology \| UC Berkeley
+
+<!-- #### Links -->
+
+<!-- ::: social-icons -->
+<!-- <a href="https://github.com/morethangray" target="_blank" aria-label="GitHub"> <i class="fab fa-github fa-2x"></i> </a> <a href="https://www.linkedin.com/in/morgangray/" target="_blank" aria-label="LinkedIn"> <i class="fab fa-linkedin fa-2x"></i> </a> <a href="https://scholar.google.com/citations?user=JrvfM-cAAAAJ&hl=en&oi=sra" target="_blank" aria-label="Google Scholar"> <i class="fas fa-graduation-cap fa-2x"></i> </a> -->
+<!-- ::: -->
+
+::: special-divider
+:::
+
+
+Have questions about your data or a potential project? Let's connect.
+
+<a class="button-yellow" href="mailto:hello@pisaster.com?subject=Website%20inquiry">Get in touch</a>

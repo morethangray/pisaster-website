@@ -69,9 +69,7 @@ $h5-font-size:   $font-size-base * 1.05 !default;
 $h6-font-size:   $font-size-base !default;
 $link-font-size: $font-size-base * 0.8  !default;
 
-
 /*-- scss:rules --*/
-
 //== General Body & Typography
 body {
   background-color: $body-bg;
@@ -81,11 +79,9 @@ body {
   line-height: 1.5;
   padding-bottom: 0.25rem;
 }
-
 p {
   padding-bottom: 0.25rem;
 }
-
 h1, h2, h3, h4, h5, h6 {
   color: $text-h1;
   font-family: $font-lexend;
@@ -95,12 +91,10 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 0rem;
   border-bottom: none; // Explicitly overriding Quarto defaults
 }
-
 h1 {
   line-height: 1.15;
   padding-bottom: 1rem;
 }
-
 strong {
   font-family: $font-lexend;
   font-weight: $font-weight-medium;
@@ -114,15 +108,14 @@ strong {
   font-family: $font-lexend;
   font-weight: $font-weight-regular;
   font-size: $h5-font-size;
-  line-height: 1.4;
+  line-height: 1.5;
 }
-
 .special-divider {
   width: 7%;
   height: 4px;
   background-color: $teal-1;
   border: none;
-  margin: 1rem 0;
+  margin: 1.5rem 0;
 }
 
 @mixin highlight-offset($highlight-color, $text-color, $font-weight) {
@@ -166,6 +159,8 @@ strong {
   letter-spacing: 0.01rem;
   padding: 0.8rem 1.6rem;
   margin: 0;
+  margin-top: 0.65rem;
+  margin-bottom: 0.65rem;
   border-radius: 40px;
   display: inline-flex;
   align-items: center;

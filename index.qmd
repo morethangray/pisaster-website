@@ -1,14 +1,46 @@
 # Translating ecological data into [conservation action]{.highlight-offset}
 
+::: {.intro}
 We help conservation organizations turn ecological data into clear, meaningful insights. Our expertise in wildlife analysis, landscape mapping, and statistical design makes it easier for you to manage your data, understand your results, and focus on protecting biodiversity.
-
+:::
 
 ::: special-divider
 :::
 
-## Website coming soon!
+## How we help
 
-Have questions about your data or a potential project? Let's connect.
+Our approach combines statistical know-how with real-world conservation experience. We work in a friendly, collaborative way to help you get the most out of your ecological data.
 
-<a class="button-yellow" href="mailto:hello@pisaster.com?subject=Website%20inquiry">Get in touch<i class="fa-regular fa-envelope fa-xl"></i>
-</a>
+We offer a variety of services to help you make the most of your ecological data. Whether you’re building a new study or making use of existing data, we provide practical, thoughtful support to turn information into insight. 
+
+[Ready to see your data in a new light? We can help.]{.highlight-offset-yellow}
+
+Services include:
+
+-   Wildlife data analysis
+-   Mapping resilient landscapes
+-   Streamlining data workflows
+-   Statistical support & research design
+-   Data visualization
+-   Scientific communication
+
+<a href="services.html" class="button-teal">Our services</a>
+
+::: special-divider
+:::
+
+## Meet your quant
+
+Hi, I’m Morgan Gray, the ecologist behind Pisaster. I bring 15 years of experience in quantitative ecology and a passion for clear, beautiful communication. I use code to handle big data sets, math to understand the ecology within the records, and design to share the results. I started Pisaster to use this unique combination of skills to empower conservation organizations by turning monitoring data into actionable, evidence-based insights, thereby providing the insights land managers need to make informed, on-the-ground decisions for biodiversity stewardship. 
+
+<a href="about.html" class="button-teal">Meet Morgan</a>
+
+::: special-divider
+:::
+
+## Let's work together
+
+Have questions about your data or a potential project? Let's connect and explore the possibilities.
+
+<a class="button-yellow" href="mailto:hello@pisaster.com?subject=Website%20inquiry">Get in touch</a>
+

@@ -4,9 +4,6 @@ project:
 website:
   title: "Pisaster"
   favicon: assets/images/pisaster-favicon.png
-  drafts:
-    - home.qmd
-  draft-mode: unlinked
   
   # start of the navigation bar at the top of the website
   navbar:
@@ -19,9 +16,17 @@ website:
     - href: "mailto:hello@pisaster.com?subject=Website%20inquiry"
       text: "hello@pisaster.com"
       icon: envelope
+    
+    left:
+    - href: index.qmd
+      text: "Home"
+    - href: services.qmd
+      text: "Services"
+    - href: about.qmd
+      text: "About"
 
   page-footer:
-    left: "&#169; 2025 Pisaster"
+    left: "&#169; 2026 Pisaster"
     border: false
 
 format:

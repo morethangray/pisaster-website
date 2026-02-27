@@ -1,0 +1,84 @@
+# [Our services]{.highlight-offset}
+
+::: intro
+We offer a variety of services to help you make the most of your ecological data. Whether you’re building a new study or making use of existing data, we provide practical, thoughtful support to turn information into insight. 
+:::
+
+::: special-divider
+:::
+
+## Wildlife data analysis
+
+**Uncover the patterns and stories in wildlife data.** We help you design effective monitoring programs and analyze the results, with particular experience in terrestrial mammal data types — including camera trap detections, species observations, collar locations, transect surveys, and genetic markers.
+
+-   Analyze population trends, habitat use, and species distribution
+-   Design effective monitoring programs
+-   Assess the effectiveness of conservation actions
+-   Create clear reports and figures to share your findings
+
+::: special-divider
+:::
+
+## Mapping resilient landscapes
+
+**See the bigger picture.** We use spatial analysis and connectivity modeling to inform conservation planning and landscape management, emphasizing local and regional perspectives.
+
+-   Map landscape connectivity and habitat quality
+-   Identify climate-resilient corridors and priority areas
+-   Analyze the impacts of land-use change on biodiversity
+-   Create clear, accessible maps for technical and public audiences
+
+::: special-divider
+:::
+
+### Streamlining data workflows
+
+**Good decisions start with well-organized, tidy data.** We develop custom, reproducible workflows to make your work easier, faster, and more reliable, building a solid foundation for your research with efficient data management.
+
+-   Clean, organize, and manage ecological datasets
+-   Build reproducible workflows for analysis and reporting
+-   Document metadata and prepare data for repositories
+-   Develop templates, protocols, and training materials
+-   Consult on process design and data management practices
+
+::: special-divider
+:::
+
+### Statistical support & research design
+
+**Sound study design and thoughtful analysis lead to stronger, clearer results.** We offer expert guidance and rigorous statistical support to help you plan, test, and answer the complex questions that matter to your conservation work, ensuring every insight is reliable and trustworthy.
+
+-   Provide study design and statistical consulting
+-   Conduct advanced data analysis for ecological research
+
+::: special-divider
+:::
+
+### Data visualization
+
+**Visualize your impact with clear, purposeful visuals** that help your audience understand your work and the surprising patterns within your data. We create designs tailored for both technical and general audiences, ensuring scientific rigor is balanced with accessibility.
+
+-   Create insightful figures, maps, and infographics
+-   Build interactive dashboards with Shiny and Quarto
+-   Design large-format maps for meetings, displays, or wayfinding
+-   Produce print-ready materials with clear messaging and design
+
+::: special-divider
+:::
+
+### Scientific communication
+
+**Share your work in ways that truly connect with different audiences** — from funders to policymakers to community partners. We help you craft materials that are clear, direct, and well-designed to share insights and the tangible impact on conservation.
+
+-   Create automated templates for recurring reports
+-   Develop reports, presentations, and publications tailored to your audience
+-   Ensure designs are optimized for clarity and aligned with your branding
+
+::: special-divider
+:::
+
+## Let's work together
+
+Have questions about your data or a potential project? Let's connect.
+
+<a class="button-yellow" href="mailto:hello@pisaster.com?subject=Website%20inquiry">Get in touch</a>

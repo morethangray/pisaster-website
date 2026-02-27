@@ -1,8 +1,9 @@
 # OS
 /**/*.DS_Store
 /**/*.Thumbs.db
+/z_archive
 
-# Quarto files and rendered folders 
+# Quarto files and rendered folders
 /.quarto/
 .quarto
 /_site/
@@ -34,3 +35,5 @@
 
 # R Environment Variables
 .Renviron
+
+**/*.quarto_ipynb
