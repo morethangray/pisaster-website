@@ -1,0 +1,45 @@
+---
+title: "Coastal wildlife assessment"
+subtitle: "Camera inventory and biodiversity baseline for Dangermond Preserve"
+description: "Interactive technical report evaluating a large, heterogeneous camera dataset and establishing a repeatable mammal biodiversity baseline for a remote California coastal preserve"
+date: "2025-09-09"
+image: thumbnail-tnc-cameras-2025.png
+categories: [cameras, biodiversity baseline, mammal monitoring, data synthesis, interactive report]
+format: html
+---
+
+<a class="button-teal" href="https://github.com/pisaster-data/jldp_cameras_2025_report">Repository</a>
+
+### Project overview
+
+This project evaluated wildlife camera data from The Nature Conservancy's Jack and Laura Dangermond Preserve to establish a foundation for long-term biodiversity monitoring. A key challenge was transforming a large, heterogeneous image archive into a standardized, analysis-ready dataset before any ecological analysis could begin.
+
+### Objectives
+
+- Inventory and assess existing camera image datasets across the preserve
+- Identify a compatible subset suitable for integrated analysis
+- Calculate baseline biodiversity metrics (species richness and occupancy) for terrestrial mammals
+- Evaluate current monitoring program performance and identify gaps
+
+### Approach
+
+The scoping phase standardized a heterogeneous collection of camera data from multiple sources, cameras, and formats. Spatial and seasonal monitoring performance was assessed alongside biodiversity metrics, using a framework designed to be repeatable for future monitoring cycles.
+
+### Key findings
+
+- Established a first quantitative baseline for terrestrial mammal diversity at the preserve
+- Identified spatial and seasonal patterns in camera performance
+- Provided specific recommendations for workflow improvements and strategic camera relocations
+- Delivered a reproducible framework for ongoing monitoring
+
+### Links
+
+🔗 <a href="https://pisaster-data.github.io/jldp_cameras_2025_report/">Interactive report</a>
+
+📄 <a href="https://github.com/pisaster-data/jldp_cameras_2025_report/blob/main/CoastalWildlifeCameras_Pisaster_2025-09-17.pdf">PDF download</a>
+
+📁 <a href="https://github.com/pisaster-data/jldp_cameras_2025_report">Public repository</a>
+
+### Citation
+
+Gray M. 2025. Coastal wildlife camera assessment: Data inventory, performance evaluation, and biodiversity baseline for terrestrial mammals at Dangermond Preserve. A technical report prepared by Pisaster for The Nature Conservancy. Berkeley, CA. 79p.

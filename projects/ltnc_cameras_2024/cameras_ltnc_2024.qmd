@@ -1,0 +1,37 @@
+---
+title: "LTNC wildlife cameras"
+subtitle: "Nine-year biodiversity synthesis for two Napa County preserves"
+description: "Presentation summarizing long-term mammal community trends, seasonal patterns, and wildlife responses to a large wildfire — built on a fully reproducible R pipeline"
+date: "2024-12-15"
+image: thumbnail-ltnc-cameras-2024.png
+categories: [cameras, biodiversity baseline, mammal monitoring, data synthesis, presentation]
+format: html
+---
+
+<a class="button-teal" href="https://github.com/morethangray/ltnc_cameras">Repository</a>
+
+### Project overview
+
+This project synthesized nine years of wildlife camera data from Duff Ranch and Dunn-Wildlake Preserve for The Land Trust of Napa County. The goal was to characterize the mammal community over time and evaluate how wildlife responded to a major wildfire event.
+
+### Objectives
+
+- Quantify species richness and relative abundance for target mammal species
+- Evaluate camera performance and identify potential monitoring biases
+- Identify seasonal and annual trends in the mammal community
+- Assess wildlife response to a large wildfire event
+- Develop clear visualizations to communicate findings to a non-specialist audience
+
+### Approach
+
+Analysis was conducted in R using a {targets} pipeline for full reproducibility, enabling efficient updates as new data are collected. The pipeline integrates data cleaning, trend analysis, and figure generation in a single documented workflow.
+
+### Key findings
+
+- A diverse wildlife community with distinct seasonal activity patterns
+- Species-specific responses to the wildfire, with some taxa showing clear post-fire shifts in detection rates
+- Camera performance evaluation identified periods and locations with reduced reliability
+
+### Citation
+
+Gray M. 2024. Tracking wildlife health: Mammal populations at Duff Ranch and Dunn-Wildlake Preserve. A presentation prepared by Pisaster for The Land Trust of Napa County.

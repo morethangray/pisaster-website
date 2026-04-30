@@ -1,0 +1,35 @@
+---
+title: "Wild pig occupancy"
+subtitle: "Multi-state modeling of pig distribution at Dangermond Preserve"
+description: "Retrospective analysis using multi-state occupancy models to characterize wild pig distribution, group size patterns, and seasonal habitat use from existing camera data"
+date: "2024-04-01"
+# image: thumbnail-ltnc-cameras-2024.png
+categories: [cameras, occupancy model, habitat use, mammal monitoring, report]
+format: html
+---
+
+### Project overview
+
+This project assessed wild pig distribution at the Jack and Laura Dangermond Preserve using existing camera data (2013–2014), conducted by Pepperwood in collaboration with The Nature Conservancy. A multi-state occupancy modeling approach was used to extract richer information from camera detections than standard single-state methods allow.
+
+### Objectives
+
+- Characterize wild pig distribution and relative population size across the preserve
+- Evaluate the effect of landscape features (water sources, habitat type) on occupancy
+- Assess seasonal variation in occurrence and group size
+- Demonstrate the broader applicability of multi-state models for common, wide-ranging species
+
+### Approach
+
+Multi-state occupancy models incorporated group size information (small vs. large groups) directly from camera images. This avoided the uninformative 100% occupancy results that standard models produce for common species, yielding actionable insights about relative density and distribution patterns.
+
+### Key findings
+
+- Wild pig presence was elevated near water sources, especially for smaller groups
+- Large groups showed higher occupancy further from Jalama Creek
+- Smaller groups were harder to detect, with implications for camera settings
+- Multi-state models demonstrated strong potential for monitoring other common, wide-ranging species
+
+### Citation
+
+Gray M. 2024. Wild pigs at the Jack and Laura Dangermond Preserve: A retrospective analysis using wildlife camera images (2013–2014). A technical report prepared by the Dwight Center of Conservation Science at Pepperwood, Santa Rosa, CA, for The Nature Conservancy. 38 pp.

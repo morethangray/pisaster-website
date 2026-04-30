@@ -1,0 +1,43 @@
+---
+title: "Prescribed Grazing in Oak Woodlands"
+subtitle: "Evaluating dry-season sheep and goat grazing for native plant recovery"
+description: "Peer-reviewed study finding that targeted summer grazing substantially increases native forb richness and cover in grass-invaded California oak woodlands, without suppressing non-native grasses"
+date: "2024-04-01"
+# image: Square crop. Prefer a figure, map, or graphic from the project over a generic wildlife photo.
+categories: [prescribed grazing, plant diversity, fire ecology, statistical consulting, peer-reviewed]
+format: html
+---
+
+### Project overview
+
+Oak woodlands in California face mounting pressure from invasive annual grasses, which suppress native diversity and elevate fire risk. This study, published in Ecological Solutions and Evidence, evaluated whether targeted dry-season grazing with sheep and goats could serve as a practical, multi-benefit management tool for invaded woodlands.
+
+### Objectives
+
+- Evaluate the effect of targeted summer grazing on invasive grass fuel loads
+- Assess outcomes for native and non-native plant species richness and cover
+- Characterize shifts in plant community composition using ordination analysis
+- Identify indicator species associated with grazed conditions
+- Develop practical guidance for land managers integrating grazing into restoration programs
+
+### Approach
+
+The study compared plant species richness and abundance in paired grazed and ungrazed plots over multiple years using a before-after, control-impact design. Analyses included ordination and indicator species analysis to characterize community-level responses beyond simple richness metrics.
+
+### Key findings or deliverables
+
+- Grazing substantially increased richness and cover of native forbs
+- Non-native grass cover was unaffected, though minor increases in non-native forbs were observed
+- Plant community composition shifted, driven primarily by native forb recovery
+- Benefits likely stem from reduced thatch, improved light availability, and favorable microsites for seedling establishment
+- Results support integrating dry-season grazing into broader restoration frameworks globally
+
+### Links
+
+📄 PDF download
+
+📑 Publication
+
+### Citation
+
+Valliere JM, Gray M, Comendant T, Ruygt JA, and Palladini M. 2025. Dry-season grazing enhances native diversity in invaded oak woodlands. Ecological Solutions and Evidence 6:e70149.

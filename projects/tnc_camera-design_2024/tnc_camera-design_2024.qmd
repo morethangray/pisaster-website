@@ -1,0 +1,41 @@
+---
+title: "Camera design framework"
+subtitle: "Statistically robust two-tiered network for a coastal preserve"
+description: "Technical report detailing a stratified, randomized camera network design — from research question development through placement maps and deployment logistics"
+date: "2024-04-01"
+# image: thumbnail-ltnc-cameras-2024.png
+categories: [cameras, study design, statistical consulting, field protocol, report]
+format: html
+---
+
+<!-- <a class="button-teal" href="https://github.com/morethangray/ltnc_cameras">Repository</a> -->
+
+### Project overview 
+
+This project designed a statistically robust wildlife camera network for the Jack and Laura Dangermond Preserve, working collaboratively with The Nature Conservancy to identify priority research themes and translate them into a rigorous monitoring structure.
+
+### Objectives
+
+- Identify key research themes and management questions to guide network design
+- Develop a two-tiered camera network capturing both broad-scale and fine-scale data
+- Ensure statistical robustness through stratification and randomization
+- Provide camera placement maps and resources for deployment logistics
+- Define methods for evaluating network performance and refining protocols over time
+
+### Approach
+
+A collaborative design process with the client grounded the network in actual management priorities. The two-tiered structure balances landscape-level coverage with targeted fine-scale monitoring. The final report includes a pilot study framework to assess network effectiveness before full deployment.
+
+### Key findings / deliverables
+
+- Complete camera network specifications with placement maps
+
+- Stratified, randomized design to support detection probability estimation
+
+- Data evaluation protocols and analysis recommendations
+
+- Pilot study design for network calibration and refinement
+
+### Citation
+
+Gray M. 2024. Stratified camera designs for mammal monitoring: A framework for the Jack and Laura Dangermond Preserve. A technical report prepared by the Dwight Center of Conservation Science at Pepperwood, Santa Rosa, CA, for The Nature Conservancy. 46 pp.

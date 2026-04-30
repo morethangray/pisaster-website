@@ -37,3 +37,4 @@
 .Renviron
 
 **/*.quarto_ipynb
+.positai

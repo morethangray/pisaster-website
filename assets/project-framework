@@ -1,0 +1,36 @@
+1. Project Posting Framework
+Here's a reusable template with guidance notes for each field.
+
+Card-level fields (listing grid)
+FieldGuidanceExampleTitleShort, descriptive project name (3–5 words). Can be the preserve/client + topic, or the method + system.Coastal Wildlife AssessmentSubtitleOne phrase that clarifies scope or novelty — the "what makes this interesting" hook.Biodiversity baseline for a new preserveDescription1–2 sentences. Lead with the deliverable, then the ecological question or management need it addressed.Interactive technical report evaluating camera performance and establishing a mammal biodiversity baseline.Tags3–6 tags (see tag list below). Include at least one method tag, one topic tag, and one deliverable tag.camera trap · occupancy · technical reportImageSquare crop. Prefer a figure, map, or graphic from the project over a generic wildlife photo.—
+
+Page-level sections (project detail page)
+Project overview (2–4 sentences)
+Who was the client, what was the system, and what was the core question or need? This sets context before getting into methods.
+Objectives (bulleted list, 3–5 items)
+What specific questions or tasks did the project address? These should map to the deliverables.
+Approach (short paragraph)
+Methods and tools used. Mention data types, analytical frameworks, and any noteworthy technical choices (e.g., reproducible pipeline, multi-state model, collaborative design process).
+Key findings or deliverables (bulleted list or short paragraph)
+What were the results, outputs, or recommendations? Be specific enough to be credible; avoid over-summarizing.
+Links (as applicable)
+
+🔗 Interactive report
+📄 PDF download
+📁 Public repository
+📑 Publication
+
+Citation
+Full citation in consistent format.
+
+2. Tag List
+Organized into categories to make selection easier. Each project should use one or more tags from each relevant category.
+Analysis method
+camera trap · occupancy model · species richness · population trend · study design · data synthesis · spatial analysis · connectivity · statistical consulting · reproducible workflow · data visualization
+
+Note on camera trap: Yes, give it its own tag — it's your highest-demand service area and appears in most projects. Use it as the primary method tag for any camera-based work, then add a second method tag (e.g., occupancy model, species richness) to distinguish the analytical approach.
+
+Topic / domain
+mammal monitoring · invasive species · fire ecology · prescribed grazing · plant diversity · biodiversity baseline · habitat use · landscape connectivity · climate resilience · conservation planning
+Deliverable type
+technical report · presentation · interactive report · peer-reviewed · data pipeline · field protocol · map

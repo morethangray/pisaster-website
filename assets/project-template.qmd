@@ -1,0 +1,56 @@
+---
+title: "Short, descriptive project name (3–5 words). Can be the preserve/client + topic, or the method + system."
+subtitle: "One phrase that clarifies scope or novelty (hook)"
+description: "Lead with the deliverable, then the ecological question or management need it addressed (1–2 sentences)"
+date: "2024-04-01"
+# image: Square crop. Prefer a figure, map, or graphic from the project over a generic wildlife photo.
+# categories: 3–6 tags; Include at least one method tag, one topic tag, and one deliverable tag.
+
+format: html
+---
+
+<!-- <a class="button-teal" href="https://github.com/morethangray/ltnc_cameras">Repository</a> -->
+
+### Project overview
+
+(2–4 sentences)
+
+*Who was the client, what was the system, and what was the core question or need? This sets context before getting into methods.*
+
+### Objectives
+
+- Objective 1
+- Objective 2
+- Objective 3
+
+*What specific questions or tasks did the project address? These should map to the deliverables.*
+
+### Approach
+
+(short paragraph)
+
+*Methods and tools used. Mention data types, analytical frameworks, and any noteworthy technical choices (e.g., reproducible pipeline, multi-state model, collaborative design process).*
+
+### Key findings or deliverables
+
+- Finding 1
+- Finding 2
+- Finding 3
+
+*What were the results, outputs, or recommendations? Be specific enough to be credible; avoid over-summarizing.*
+
+### Links
+
+(as applicable)
+
+🔗 Interactive report
+
+📄 PDF download
+
+📁 Public repository
+
+📑 Publication
+
+### Citation
+
+*Full citation in consistent format.*

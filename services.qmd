@@ -31,7 +31,7 @@ We offer a variety of services to help you make the most of your ecological data
 ::: special-divider
 :::
 
-### Streamlining data workflows
+## Streamlining data workflows
 
 **Good decisions start with well-organized, tidy data.** We develop custom, reproducible workflows to make your work easier, faster, and more reliable, building a solid foundation for your research with efficient data management.
 
@@ -44,7 +44,7 @@ We offer a variety of services to help you make the most of your ecological data
 ::: special-divider
 :::
 
-### Statistical support & research design
+## Statistical support & research design
 
 **Sound study design and thoughtful analysis lead to stronger, clearer results.** We offer expert guidance and rigorous statistical support to help you plan, test, and answer the complex questions that matter to your conservation work, ensuring every insight is reliable and trustworthy.
 
@@ -54,7 +54,7 @@ We offer a variety of services to help you make the most of your ecological data
 ::: special-divider
 :::
 
-### Data visualization
+## Data visualization
 
 **Visualize your impact with clear, purposeful visuals** that help your audience understand your work and the surprising patterns within your data. We create designs tailored for both technical and general audiences, ensuring scientific rigor is balanced with accessibility.
 
@@ -66,7 +66,7 @@ We offer a variety of services to help you make the most of your ecological data
 ::: special-divider
 :::
 
-### Scientific communication
+## Scientific communication
 
 **Share your work in ways that truly connect with different audiences** — from funders to policymakers to community partners. We help you craft materials that are clear, direct, and well-designed to share insights and the tangible impact on conservation.
 

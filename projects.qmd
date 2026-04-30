@@ -1,0 +1,12 @@
+---
+listing:
+  contents: projects
+  type: grid
+  sort: "date desc"
+  # categories: true
+  image-height: 200px
+  image-placeholder: assets/images/pisaster-favicon.png
+  
+---
+
+## Projects
